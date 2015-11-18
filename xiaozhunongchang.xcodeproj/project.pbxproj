@@ -16,8 +16,6 @@
 		183AA6F91BFB291B008E3C27 /* SeedVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 183AA6F71BFB291B008E3C27 /* SeedVC.xib */; };
 		183AA6FD1BFB4EF7008E3C27 /* OwnSeedCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 183AA6FC1BFB4EF7008E3C27 /* OwnSeedCell.m */; };
 		1881E6891BF7255D00389A54 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1881E6881BF7255D00389A54 /* Default-568h@2x.png */; };
-		189B72E91BFAD06E00E2A90C /* DiscoverVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 189B72871BFAD06D00E2A90C /* DiscoverVC.m */; };
-		189B72EA1BFAD06E00E2A90C /* DiscoverVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 189B72881BFAD06D00E2A90C /* DiscoverVC.xib */; };
 		189B72EB1BFAD06E00E2A90C /* MallInfomationVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 189B728B1BFAD06D00E2A90C /* MallInfomationVC.m */; };
 		189B72EC1BFAD06E00E2A90C /* MallInfomationVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 189B728C1BFAD06D00E2A90C /* MallInfomationVC.xib */; };
 		189B72ED1BFAD06E00E2A90C /* MenuImageV.m in Sources */ = {isa = PBXBuildFile; fileRef = 189B728F1BFAD06D00E2A90C /* MenuImageV.m */; };
@@ -262,6 +260,64 @@
 		845FE2601BF488BE0011C247 /* footer4_ed.png in Resources */ = {isa = PBXBuildFile; fileRef = 845FE25B1BF488BE0011C247 /* footer4_ed.png */; };
 		845FE2611BF488BE0011C247 /* footer5_ed.png in Resources */ = {isa = PBXBuildFile; fileRef = 845FE25C1BF488BE0011C247 /* footer5_ed.png */; };
 		845FE2631BF48A720011C247 /* nav.png in Resources */ = {isa = PBXBuildFile; fileRef = 845FE2621BF48A720011C247 /* nav.png */; };
+		CCB134321BFC2125000E5F9B /* PersonalCenterCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CCB133CF1BFC2125000E5F9B /* PersonalCenterCell.xib */; settings = {ASSET_TAGS = (); }; };
+		CCB134331BFC2125000E5F9B /* PersonalCenterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CCB133D11BFC2125000E5F9B /* PersonalCenterViewController.m */; settings = {ASSET_TAGS = (); }; };
+		CCB134341BFC2125000E5F9B /* PersonalCenterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CCB133D21BFC2125000E5F9B /* PersonalCenterViewController.xib */; settings = {ASSET_TAGS = (); }; };
+		CCB134351BFC2125000E5F9B /* FunctionIntroductionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CCB133D61BFC2125000E5F9B /* FunctionIntroductionViewController.m */; settings = {ASSET_TAGS = (); }; };
+		CCB134361BFC2125000E5F9B /* FunctionIntroductionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CCB133D71BFC2125000E5F9B /* FunctionIntroductionViewController.xib */; settings = {ASSET_TAGS = (); }; };
+		CCB134371BFC2125000E5F9B /* PersonalInformationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CCB133DA1BFC2125000E5F9B /* PersonalInformationViewController.m */; settings = {ASSET_TAGS = (); }; };
+		CCB134381BFC2125000E5F9B /* PersonalInformationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CCB133DB1BFC2125000E5F9B /* PersonalInformationViewController.xib */; settings = {ASSET_TAGS = (); }; };
+		CCB134391BFC2125000E5F9B /* IdeaAndFeedbackViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CCB133DE1BFC2125000E5F9B /* IdeaAndFeedbackViewController.m */; settings = {ASSET_TAGS = (); }; };
+		CCB1343A1BFC2125000E5F9B /* IdeaAndFeedbackViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CCB133DF1BFC2125000E5F9B /* IdeaAndFeedbackViewController.xib */; settings = {ASSET_TAGS = (); }; };
+		CCB1343B1BFC2125000E5F9B /* MyAddressTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CCB133E11BFC2125000E5F9B /* MyAddressTableViewCell.xib */; settings = {ASSET_TAGS = (); }; };
+		CCB1343C1BFC2125000E5F9B /* MyAddressViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CCB133E31BFC2125000E5F9B /* MyAddressViewController.m */; settings = {ASSET_TAGS = (); }; };
+		CCB1343D1BFC2125000E5F9B /* MyAddressViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CCB133E41BFC2125000E5F9B /* MyAddressViewController.xib */; settings = {ASSET_TAGS = (); }; };
+		CCB1343E1BFC2125000E5F9B /* ModifyAddressViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CCB133E71BFC2125000E5F9B /* ModifyAddressViewController.m */; settings = {ASSET_TAGS = (); }; };
+		CCB1343F1BFC2125000E5F9B /* ModifyAddressViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CCB133E81BFC2125000E5F9B /* ModifyAddressViewController.xib */; settings = {ASSET_TAGS = (); }; };
+		CCB134401BFC2125000E5F9B /* AddNewAddressViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CCB133EB1BFC2125000E5F9B /* AddNewAddressViewController.m */; settings = {ASSET_TAGS = (); }; };
+		CCB134411BFC2125000E5F9B /* AddNewAddressViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CCB133EC1BFC2125000E5F9B /* AddNewAddressViewController.xib */; settings = {ASSET_TAGS = (); }; };
+		CCB134421BFC2125000E5F9B /* MyMessageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CCB133EF1BFC2125000E5F9B /* MyMessageViewController.m */; settings = {ASSET_TAGS = (); }; };
+		CCB134431BFC2125000E5F9B /* MyMessageViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CCB133F01BFC2125000E5F9B /* MyMessageViewController.xib */; settings = {ASSET_TAGS = (); }; };
+		CCB134441BFC2125000E5F9B /* MyOrderTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CCB133F21BFC2125000E5F9B /* MyOrderTableViewCell.xib */; settings = {ASSET_TAGS = (); }; };
+		CCB134451BFC2125000E5F9B /* MyOrderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CCB133F41BFC2125000E5F9B /* MyOrderViewController.m */; settings = {ASSET_TAGS = (); }; };
+		CCB134461BFC2125000E5F9B /* MyOrderViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CCB133F51BFC2125000E5F9B /* MyOrderViewController.xib */; settings = {ASSET_TAGS = (); }; };
+		CCB134471BFC2125000E5F9B /* MyWalletViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CCB133F81BFC2125000E5F9B /* MyWalletViewController.m */; settings = {ASSET_TAGS = (); }; };
+		CCB134481BFC2125000E5F9B /* MyWalletViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CCB133F91BFC2125000E5F9B /* MyWalletViewController.xib */; settings = {ASSET_TAGS = (); }; };
+		CCB134491BFC2125000E5F9B /* PayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CCB133FC1BFC2125000E5F9B /* PayViewController.m */; settings = {ASSET_TAGS = (); }; };
+		CCB1344A1BFC2125000E5F9B /* PayViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CCB133FD1BFC2125000E5F9B /* PayViewController.xib */; settings = {ASSET_TAGS = (); }; };
+		CCB1344B1BFC2125000E5F9B /* MyBillTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CCB133FF1BFC2125000E5F9B /* MyBillTableViewCell.xib */; settings = {ASSET_TAGS = (); }; };
+		CCB1344C1BFC2125000E5F9B /* MyBillViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CCB134011BFC2125000E5F9B /* MyBillViewController.m */; settings = {ASSET_TAGS = (); }; };
+		CCB1344D1BFC2125000E5F9B /* MyBillViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CCB134021BFC2125000E5F9B /* MyBillViewController.xib */; settings = {ASSET_TAGS = (); }; };
+		CCB1344E1BFC2125000E5F9B /* PlantHistoryTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CCB134041BFC2125000E5F9B /* PlantHistoryTableViewCell.xib */; settings = {ASSET_TAGS = (); }; };
+		CCB1344F1BFC2125000E5F9B /* PlantHistoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CCB134061BFC2125000E5F9B /* PlantHistoryViewController.m */; settings = {ASSET_TAGS = (); }; };
+		CCB134501BFC2125000E5F9B /* PlantHistoryViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CCB134071BFC2125000E5F9B /* PlantHistoryViewController.xib */; settings = {ASSET_TAGS = (); }; };
+		CCB134511BFC2125000E5F9B /* AccountAndSafeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CCB1340A1BFC2125000E5F9B /* AccountAndSafeViewController.m */; settings = {ASSET_TAGS = (); }; };
+		CCB134521BFC2125000E5F9B /* AccountAndSafeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CCB1340B1BFC2125000E5F9B /* AccountAndSafeViewController.xib */; settings = {ASSET_TAGS = (); }; };
+		CCB134531BFC2125000E5F9B /* ChangePasswordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CCB1340E1BFC2125000E5F9B /* ChangePasswordViewController.m */; settings = {ASSET_TAGS = (); }; };
+		CCB134541BFC2125000E5F9B /* ChangePasswordViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CCB1340F1BFC2125000E5F9B /* ChangePasswordViewController.xib */; settings = {ASSET_TAGS = (); }; };
+		CCB134551BFC2125000E5F9B /* PrivacySetViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CCB134111BFC2125000E5F9B /* PrivacySetViewController.m */; settings = {ASSET_TAGS = (); }; };
+		CCB134561BFC2125000E5F9B /* PrivacySetViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CCB134121BFC2125000E5F9B /* PrivacySetViewController.xib */; settings = {ASSET_TAGS = (); }; };
+		CCB134571BFC2125000E5F9B /* ActivityViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CCB134161BFC2125000E5F9B /* ActivityViewController.m */; settings = {ASSET_TAGS = (); }; };
+		CCB134581BFC2125000E5F9B /* ActivityViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CCB134171BFC2125000E5F9B /* ActivityViewController.xib */; settings = {ASSET_TAGS = (); }; };
+		CCB134591BFC2125000E5F9B /* HotelViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CCB1341A1BFC2125000E5F9B /* HotelViewController.m */; settings = {ASSET_TAGS = (); }; };
+		CCB1345A1BFC2125000E5F9B /* HotelViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CCB1341B1BFC2125000E5F9B /* HotelViewController.xib */; settings = {ASSET_TAGS = (); }; };
+		CCB1345B1BFC2125000E5F9B /* ContactUsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CCB1341E1BFC2125000E5F9B /* ContactUsViewController.m */; settings = {ASSET_TAGS = (); }; };
+		CCB1345C1BFC2125000E5F9B /* ContactUsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CCB1341F1BFC2125000E5F9B /* ContactUsViewController.xib */; settings = {ASSET_TAGS = (); }; };
+		CCB1345D1BFC2125000E5F9B /* FarmTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CCB134211BFC2125000E5F9B /* FarmTableViewCell.xib */; settings = {ASSET_TAGS = (); }; };
+		CCB1345E1BFC2125000E5F9B /* FarmViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CCB134231BFC2125000E5F9B /* FarmViewController.m */; settings = {ASSET_TAGS = (); }; };
+		CCB1345F1BFC2125000E5F9B /* FarmViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CCB134241BFC2125000E5F9B /* FarmViewController.xib */; settings = {ASSET_TAGS = (); }; };
+		CCB134601BFC2125000E5F9B /* MenuListCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CCB134261BFC2125000E5F9B /* MenuListCell.xib */; settings = {ASSET_TAGS = (); }; };
+		CCB134611BFC2125000E5F9B /* MenuListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CCB134281BFC2125000E5F9B /* MenuListViewController.m */; settings = {ASSET_TAGS = (); }; };
+		CCB134621BFC2125000E5F9B /* MenuListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CCB134291BFC2125000E5F9B /* MenuListViewController.xib */; settings = {ASSET_TAGS = (); }; };
+		CCB134631BFC2125000E5F9B /* ShoppingCartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CCB1342C1BFC2125000E5F9B /* ShoppingCartViewController.m */; settings = {ASSET_TAGS = (); }; };
+		CCB134641BFC2125000E5F9B /* ShoppingCartViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CCB1342D1BFC2125000E5F9B /* ShoppingCartViewController.xib */; settings = {ASSET_TAGS = (); }; };
+		CCB134651BFC2125000E5F9B /* GameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CCB134301BFC2125000E5F9B /* GameViewController.m */; settings = {ASSET_TAGS = (); }; };
+		CCB134661BFC2125000E5F9B /* GameViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CCB134311BFC2125000E5F9B /* GameViewController.xib */; settings = {ASSET_TAGS = (); }; };
+		CCB1346A1BFC215B000E5F9B /* DiscoverVC.m in Sources */ = {isa = PBXBuildFile; fileRef = CCB134681BFC215B000E5F9B /* DiscoverVC.m */; settings = {ASSET_TAGS = (); }; };
+		CCB1346B1BFC215B000E5F9B /* DiscoverVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = CCB134691BFC215B000E5F9B /* DiscoverVC.xib */; settings = {ASSET_TAGS = (); }; };
+		CCB1346F1BFC21D7000E5F9B /* 发现_21.png in Resources */ = {isa = PBXBuildFile; fileRef = CCB1346C1BFC21D7000E5F9B /* 发现_21.png */; settings = {ASSET_TAGS = (); }; };
+		CCB134701BFC21D7000E5F9B /* 发现_29.png in Resources */ = {isa = PBXBuildFile; fileRef = CCB1346D1BFC21D7000E5F9B /* 发现_29.png */; settings = {ASSET_TAGS = (); }; };
+		CCB134711BFC21D7000E5F9B /* 获奖信息1_03.png in Resources */ = {isa = PBXBuildFile; fileRef = CCB1346E1BFC21D7000E5F9B /* 获奖信息1_03.png */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -288,9 +344,6 @@
 		183AA6FB1BFB4EF7008E3C27 /* OwnSeedCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OwnSeedCell.h; sourceTree = "<group>"; };
 		183AA6FC1BFB4EF7008E3C27 /* OwnSeedCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OwnSeedCell.m; sourceTree = "<group>"; };
 		1881E6881BF7255D00389A54 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
-		189B72861BFAD06D00E2A90C /* DiscoverVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DiscoverVC.h; sourceTree = "<group>"; };
-		189B72871BFAD06D00E2A90C /* DiscoverVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DiscoverVC.m; sourceTree = "<group>"; };
-		189B72881BFAD06D00E2A90C /* DiscoverVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DiscoverVC.xib; sourceTree = "<group>"; };
 		189B728A1BFAD06D00E2A90C /* MallInfomationVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MallInfomationVC.h; sourceTree = "<group>"; };
 		189B728B1BFAD06D00E2A90C /* MallInfomationVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MallInfomationVC.m; sourceTree = "<group>"; };
 		189B728C1BFAD06D00E2A90C /* MallInfomationVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MallInfomationVC.xib; sourceTree = "<group>"; };
@@ -600,6 +653,88 @@
 		845FE25B1BF488BE0011C247 /* footer4_ed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = footer4_ed.png; sourceTree = "<group>"; };
 		845FE25C1BF488BE0011C247 /* footer5_ed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = footer5_ed.png; sourceTree = "<group>"; };
 		845FE2621BF48A720011C247 /* nav.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nav.png; sourceTree = "<group>"; };
+		CCB133CF1BFC2125000E5F9B /* PersonalCenterCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PersonalCenterCell.xib; sourceTree = "<group>"; };
+		CCB133D01BFC2125000E5F9B /* PersonalCenterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PersonalCenterViewController.h; sourceTree = "<group>"; };
+		CCB133D11BFC2125000E5F9B /* PersonalCenterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PersonalCenterViewController.m; sourceTree = "<group>"; };
+		CCB133D21BFC2125000E5F9B /* PersonalCenterViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PersonalCenterViewController.xib; sourceTree = "<group>"; };
+		CCB133D51BFC2125000E5F9B /* FunctionIntroductionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FunctionIntroductionViewController.h; sourceTree = "<group>"; };
+		CCB133D61BFC2125000E5F9B /* FunctionIntroductionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FunctionIntroductionViewController.m; sourceTree = "<group>"; };
+		CCB133D71BFC2125000E5F9B /* FunctionIntroductionViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FunctionIntroductionViewController.xib; sourceTree = "<group>"; };
+		CCB133D91BFC2125000E5F9B /* PersonalInformationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PersonalInformationViewController.h; sourceTree = "<group>"; };
+		CCB133DA1BFC2125000E5F9B /* PersonalInformationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PersonalInformationViewController.m; sourceTree = "<group>"; };
+		CCB133DB1BFC2125000E5F9B /* PersonalInformationViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PersonalInformationViewController.xib; sourceTree = "<group>"; };
+		CCB133DD1BFC2125000E5F9B /* IdeaAndFeedbackViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IdeaAndFeedbackViewController.h; sourceTree = "<group>"; };
+		CCB133DE1BFC2125000E5F9B /* IdeaAndFeedbackViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IdeaAndFeedbackViewController.m; sourceTree = "<group>"; };
+		CCB133DF1BFC2125000E5F9B /* IdeaAndFeedbackViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = IdeaAndFeedbackViewController.xib; sourceTree = "<group>"; };
+		CCB133E11BFC2125000E5F9B /* MyAddressTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MyAddressTableViewCell.xib; sourceTree = "<group>"; };
+		CCB133E21BFC2125000E5F9B /* MyAddressViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyAddressViewController.h; sourceTree = "<group>"; };
+		CCB133E31BFC2125000E5F9B /* MyAddressViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyAddressViewController.m; sourceTree = "<group>"; };
+		CCB133E41BFC2125000E5F9B /* MyAddressViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MyAddressViewController.xib; sourceTree = "<group>"; };
+		CCB133E61BFC2125000E5F9B /* ModifyAddressViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModifyAddressViewController.h; sourceTree = "<group>"; };
+		CCB133E71BFC2125000E5F9B /* ModifyAddressViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ModifyAddressViewController.m; sourceTree = "<group>"; };
+		CCB133E81BFC2125000E5F9B /* ModifyAddressViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ModifyAddressViewController.xib; sourceTree = "<group>"; };
+		CCB133EA1BFC2125000E5F9B /* AddNewAddressViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddNewAddressViewController.h; sourceTree = "<group>"; };
+		CCB133EB1BFC2125000E5F9B /* AddNewAddressViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddNewAddressViewController.m; sourceTree = "<group>"; };
+		CCB133EC1BFC2125000E5F9B /* AddNewAddressViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AddNewAddressViewController.xib; sourceTree = "<group>"; };
+		CCB133EE1BFC2125000E5F9B /* MyMessageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyMessageViewController.h; sourceTree = "<group>"; };
+		CCB133EF1BFC2125000E5F9B /* MyMessageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyMessageViewController.m; sourceTree = "<group>"; };
+		CCB133F01BFC2125000E5F9B /* MyMessageViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MyMessageViewController.xib; sourceTree = "<group>"; };
+		CCB133F21BFC2125000E5F9B /* MyOrderTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MyOrderTableViewCell.xib; sourceTree = "<group>"; };
+		CCB133F31BFC2125000E5F9B /* MyOrderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyOrderViewController.h; sourceTree = "<group>"; };
+		CCB133F41BFC2125000E5F9B /* MyOrderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyOrderViewController.m; sourceTree = "<group>"; };
+		CCB133F51BFC2125000E5F9B /* MyOrderViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MyOrderViewController.xib; sourceTree = "<group>"; };
+		CCB133F71BFC2125000E5F9B /* MyWalletViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyWalletViewController.h; sourceTree = "<group>"; };
+		CCB133F81BFC2125000E5F9B /* MyWalletViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyWalletViewController.m; sourceTree = "<group>"; };
+		CCB133F91BFC2125000E5F9B /* MyWalletViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MyWalletViewController.xib; sourceTree = "<group>"; };
+		CCB133FB1BFC2125000E5F9B /* PayViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PayViewController.h; sourceTree = "<group>"; };
+		CCB133FC1BFC2125000E5F9B /* PayViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PayViewController.m; sourceTree = "<group>"; };
+		CCB133FD1BFC2125000E5F9B /* PayViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PayViewController.xib; sourceTree = "<group>"; };
+		CCB133FF1BFC2125000E5F9B /* MyBillTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MyBillTableViewCell.xib; sourceTree = "<group>"; };
+		CCB134001BFC2125000E5F9B /* MyBillViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyBillViewController.h; sourceTree = "<group>"; };
+		CCB134011BFC2125000E5F9B /* MyBillViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyBillViewController.m; sourceTree = "<group>"; };
+		CCB134021BFC2125000E5F9B /* MyBillViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MyBillViewController.xib; sourceTree = "<group>"; };
+		CCB134041BFC2125000E5F9B /* PlantHistoryTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PlantHistoryTableViewCell.xib; sourceTree = "<group>"; };
+		CCB134051BFC2125000E5F9B /* PlantHistoryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlantHistoryViewController.h; sourceTree = "<group>"; };
+		CCB134061BFC2125000E5F9B /* PlantHistoryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlantHistoryViewController.m; sourceTree = "<group>"; };
+		CCB134071BFC2125000E5F9B /* PlantHistoryViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PlantHistoryViewController.xib; sourceTree = "<group>"; };
+		CCB134091BFC2125000E5F9B /* AccountAndSafeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AccountAndSafeViewController.h; sourceTree = "<group>"; };
+		CCB1340A1BFC2125000E5F9B /* AccountAndSafeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AccountAndSafeViewController.m; sourceTree = "<group>"; };
+		CCB1340B1BFC2125000E5F9B /* AccountAndSafeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AccountAndSafeViewController.xib; sourceTree = "<group>"; };
+		CCB1340D1BFC2125000E5F9B /* ChangePasswordViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChangePasswordViewController.h; sourceTree = "<group>"; };
+		CCB1340E1BFC2125000E5F9B /* ChangePasswordViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChangePasswordViewController.m; sourceTree = "<group>"; };
+		CCB1340F1BFC2125000E5F9B /* ChangePasswordViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ChangePasswordViewController.xib; sourceTree = "<group>"; };
+		CCB134101BFC2125000E5F9B /* PrivacySetViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrivacySetViewController.h; sourceTree = "<group>"; };
+		CCB134111BFC2125000E5F9B /* PrivacySetViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PrivacySetViewController.m; sourceTree = "<group>"; };
+		CCB134121BFC2125000E5F9B /* PrivacySetViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PrivacySetViewController.xib; sourceTree = "<group>"; };
+		CCB134151BFC2125000E5F9B /* ActivityViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActivityViewController.h; sourceTree = "<group>"; };
+		CCB134161BFC2125000E5F9B /* ActivityViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ActivityViewController.m; sourceTree = "<group>"; };
+		CCB134171BFC2125000E5F9B /* ActivityViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ActivityViewController.xib; sourceTree = "<group>"; };
+		CCB134191BFC2125000E5F9B /* HotelViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HotelViewController.h; sourceTree = "<group>"; };
+		CCB1341A1BFC2125000E5F9B /* HotelViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HotelViewController.m; sourceTree = "<group>"; };
+		CCB1341B1BFC2125000E5F9B /* HotelViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HotelViewController.xib; sourceTree = "<group>"; };
+		CCB1341D1BFC2125000E5F9B /* ContactUsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContactUsViewController.h; sourceTree = "<group>"; };
+		CCB1341E1BFC2125000E5F9B /* ContactUsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContactUsViewController.m; sourceTree = "<group>"; };
+		CCB1341F1BFC2125000E5F9B /* ContactUsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ContactUsViewController.xib; sourceTree = "<group>"; };
+		CCB134211BFC2125000E5F9B /* FarmTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FarmTableViewCell.xib; sourceTree = "<group>"; };
+		CCB134221BFC2125000E5F9B /* FarmViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FarmViewController.h; sourceTree = "<group>"; };
+		CCB134231BFC2125000E5F9B /* FarmViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FarmViewController.m; sourceTree = "<group>"; };
+		CCB134241BFC2125000E5F9B /* FarmViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FarmViewController.xib; sourceTree = "<group>"; };
+		CCB134261BFC2125000E5F9B /* MenuListCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MenuListCell.xib; sourceTree = "<group>"; };
+		CCB134271BFC2125000E5F9B /* MenuListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuListViewController.h; sourceTree = "<group>"; };
+		CCB134281BFC2125000E5F9B /* MenuListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuListViewController.m; sourceTree = "<group>"; };
+		CCB134291BFC2125000E5F9B /* MenuListViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MenuListViewController.xib; sourceTree = "<group>"; };
+		CCB1342B1BFC2125000E5F9B /* ShoppingCartViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShoppingCartViewController.h; sourceTree = "<group>"; };
+		CCB1342C1BFC2125000E5F9B /* ShoppingCartViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShoppingCartViewController.m; sourceTree = "<group>"; };
+		CCB1342D1BFC2125000E5F9B /* ShoppingCartViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ShoppingCartViewController.xib; sourceTree = "<group>"; };
+		CCB1342F1BFC2125000E5F9B /* GameViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameViewController.h; sourceTree = "<group>"; };
+		CCB134301BFC2125000E5F9B /* GameViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameViewController.m; sourceTree = "<group>"; };
+		CCB134311BFC2125000E5F9B /* GameViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GameViewController.xib; sourceTree = "<group>"; };
+		CCB134671BFC215B000E5F9B /* DiscoverVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DiscoverVC.h; path = "游戏/DiscoverVC.h"; sourceTree = "<group>"; };
+		CCB134681BFC215B000E5F9B /* DiscoverVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DiscoverVC.m; path = "游戏/DiscoverVC.m"; sourceTree = "<group>"; };
+		CCB134691BFC215B000E5F9B /* DiscoverVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = DiscoverVC.xib; path = "游戏/DiscoverVC.xib"; sourceTree = "<group>"; };
+		CCB1346C1BFC21D7000E5F9B /* 发现_21.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "发现_21.png"; sourceTree = "<group>"; };
+		CCB1346D1BFC21D7000E5F9B /* 发现_29.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "发现_29.png"; sourceTree = "<group>"; };
+		CCB1346E1BFC21D7000E5F9B /* 获奖信息1_03.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "获奖信息1_03.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -682,9 +817,15 @@
 		189B72851BFAD06D00E2A90C /* 发现 */ = {
 			isa = PBXGroup;
 			children = (
-				189B72861BFAD06D00E2A90C /* DiscoverVC.h */,
-				189B72871BFAD06D00E2A90C /* DiscoverVC.m */,
-				189B72881BFAD06D00E2A90C /* DiscoverVC.xib */,
+				CCB133CE1BFC2125000E5F9B /* 个人中心 */,
+				CCB134141BFC2125000E5F9B /* 活动 */,
+				CCB134181BFC2125000E5F9B /* 酒店 */,
+				CCB1341C1BFC2125000E5F9B /* 联系我们 */,
+				CCB134201BFC2125000E5F9B /* 农庄 */,
+				CCB1342E1BFC2125000E5F9B /* 游戏 */,
+				CCB134671BFC215B000E5F9B /* DiscoverVC.h */,
+				CCB134681BFC215B000E5F9B /* DiscoverVC.m */,
+				CCB134691BFC215B000E5F9B /* DiscoverVC.xib */,
 			);
 			path = "发现";
 			sourceTree = "<group>";
@@ -1208,6 +1349,9 @@
 		845FE1221BF47BCB0011C247 /* 发现图标 */ = {
 			isa = PBXGroup;
 			children = (
+				CCB1346C1BFC21D7000E5F9B /* 发现_21.png */,
+				CCB1346D1BFC21D7000E5F9B /* 发现_29.png */,
+				CCB1346E1BFC21D7000E5F9B /* 获奖信息1_03.png */,
 				845FE1231BF47BCB0011C247 /* 个人中心_03.png */,
 				845FE1241BF47BCB0011C247 /* 个人中心_06.png */,
 				845FE1251BF47BCB0011C247 /* 个人中心_08.png */,
@@ -1399,6 +1543,268 @@
 			path = "首页图标";
 			sourceTree = "<group>";
 		};
+		CCB133CE1BFC2125000E5F9B /* 个人中心 */ = {
+			isa = PBXGroup;
+			children = (
+				CCB133CF1BFC2125000E5F9B /* PersonalCenterCell.xib */,
+				CCB133D01BFC2125000E5F9B /* PersonalCenterViewController.h */,
+				CCB133D11BFC2125000E5F9B /* PersonalCenterViewController.m */,
+				CCB133D21BFC2125000E5F9B /* PersonalCenterViewController.xib */,
+				CCB133D31BFC2125000E5F9B /* 关于小猪农场 */,
+				CCB133D41BFC2125000E5F9B /* 功能介绍 */,
+				CCB133D81BFC2125000E5F9B /* 基本信息 */,
+				CCB133DC1BFC2125000E5F9B /* 意见与反馈 */,
+				CCB133E01BFC2125000E5F9B /* 我的收货地址 */,
+				CCB133ED1BFC2125000E5F9B /* 我的消息 */,
+				CCB133F11BFC2125000E5F9B /* 我的订单 */,
+				CCB133F61BFC2125000E5F9B /* 我的钱包 */,
+				CCB134031BFC2125000E5F9B /* 种植历史 */,
+				CCB134081BFC2125000E5F9B /* 账户与安全 */,
+			);
+			path = "个人中心";
+			sourceTree = "<group>";
+		};
+		CCB133D31BFC2125000E5F9B /* 关于小猪农场 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "关于小猪农场";
+			sourceTree = "<group>";
+		};
+		CCB133D41BFC2125000E5F9B /* 功能介绍 */ = {
+			isa = PBXGroup;
+			children = (
+				CCB133D51BFC2125000E5F9B /* FunctionIntroductionViewController.h */,
+				CCB133D61BFC2125000E5F9B /* FunctionIntroductionViewController.m */,
+				CCB133D71BFC2125000E5F9B /* FunctionIntroductionViewController.xib */,
+			);
+			path = "功能介绍";
+			sourceTree = "<group>";
+		};
+		CCB133D81BFC2125000E5F9B /* 基本信息 */ = {
+			isa = PBXGroup;
+			children = (
+				CCB133D91BFC2125000E5F9B /* PersonalInformationViewController.h */,
+				CCB133DA1BFC2125000E5F9B /* PersonalInformationViewController.m */,
+				CCB133DB1BFC2125000E5F9B /* PersonalInformationViewController.xib */,
+			);
+			path = "基本信息";
+			sourceTree = "<group>";
+		};
+		CCB133DC1BFC2125000E5F9B /* 意见与反馈 */ = {
+			isa = PBXGroup;
+			children = (
+				CCB133DD1BFC2125000E5F9B /* IdeaAndFeedbackViewController.h */,
+				CCB133DE1BFC2125000E5F9B /* IdeaAndFeedbackViewController.m */,
+				CCB133DF1BFC2125000E5F9B /* IdeaAndFeedbackViewController.xib */,
+			);
+			path = "意见与反馈";
+			sourceTree = "<group>";
+		};
+		CCB133E01BFC2125000E5F9B /* 我的收货地址 */ = {
+			isa = PBXGroup;
+			children = (
+				CCB133E11BFC2125000E5F9B /* MyAddressTableViewCell.xib */,
+				CCB133E21BFC2125000E5F9B /* MyAddressViewController.h */,
+				CCB133E31BFC2125000E5F9B /* MyAddressViewController.m */,
+				CCB133E41BFC2125000E5F9B /* MyAddressViewController.xib */,
+				CCB133E51BFC2125000E5F9B /* 修改地址 */,
+				CCB133E91BFC2125000E5F9B /* 添加新地址 */,
+			);
+			path = "我的收货地址";
+			sourceTree = "<group>";
+		};
+		CCB133E51BFC2125000E5F9B /* 修改地址 */ = {
+			isa = PBXGroup;
+			children = (
+				CCB133E61BFC2125000E5F9B /* ModifyAddressViewController.h */,
+				CCB133E71BFC2125000E5F9B /* ModifyAddressViewController.m */,
+				CCB133E81BFC2125000E5F9B /* ModifyAddressViewController.xib */,
+			);
+			path = "修改地址";
+			sourceTree = "<group>";
+		};
+		CCB133E91BFC2125000E5F9B /* 添加新地址 */ = {
+			isa = PBXGroup;
+			children = (
+				CCB133EA1BFC2125000E5F9B /* AddNewAddressViewController.h */,
+				CCB133EB1BFC2125000E5F9B /* AddNewAddressViewController.m */,
+				CCB133EC1BFC2125000E5F9B /* AddNewAddressViewController.xib */,
+			);
+			path = "添加新地址";
+			sourceTree = "<group>";
+		};
+		CCB133ED1BFC2125000E5F9B /* 我的消息 */ = {
+			isa = PBXGroup;
+			children = (
+				CCB133EE1BFC2125000E5F9B /* MyMessageViewController.h */,
+				CCB133EF1BFC2125000E5F9B /* MyMessageViewController.m */,
+				CCB133F01BFC2125000E5F9B /* MyMessageViewController.xib */,
+			);
+			path = "我的消息";
+			sourceTree = "<group>";
+		};
+		CCB133F11BFC2125000E5F9B /* 我的订单 */ = {
+			isa = PBXGroup;
+			children = (
+				CCB133F21BFC2125000E5F9B /* MyOrderTableViewCell.xib */,
+				CCB133F31BFC2125000E5F9B /* MyOrderViewController.h */,
+				CCB133F41BFC2125000E5F9B /* MyOrderViewController.m */,
+				CCB133F51BFC2125000E5F9B /* MyOrderViewController.xib */,
+			);
+			path = "我的订单";
+			sourceTree = "<group>";
+		};
+		CCB133F61BFC2125000E5F9B /* 我的钱包 */ = {
+			isa = PBXGroup;
+			children = (
+				CCB133F71BFC2125000E5F9B /* MyWalletViewController.h */,
+				CCB133F81BFC2125000E5F9B /* MyWalletViewController.m */,
+				CCB133F91BFC2125000E5F9B /* MyWalletViewController.xib */,
+				CCB133FA1BFC2125000E5F9B /* 充值 */,
+				CCB133FE1BFC2125000E5F9B /* 我的账单 */,
+			);
+			path = "我的钱包";
+			sourceTree = "<group>";
+		};
+		CCB133FA1BFC2125000E5F9B /* 充值 */ = {
+			isa = PBXGroup;
+			children = (
+				CCB133FB1BFC2125000E5F9B /* PayViewController.h */,
+				CCB133FC1BFC2125000E5F9B /* PayViewController.m */,
+				CCB133FD1BFC2125000E5F9B /* PayViewController.xib */,
+			);
+			path = "充值";
+			sourceTree = "<group>";
+		};
+		CCB133FE1BFC2125000E5F9B /* 我的账单 */ = {
+			isa = PBXGroup;
+			children = (
+				CCB133FF1BFC2125000E5F9B /* MyBillTableViewCell.xib */,
+				CCB134001BFC2125000E5F9B /* MyBillViewController.h */,
+				CCB134011BFC2125000E5F9B /* MyBillViewController.m */,
+				CCB134021BFC2125000E5F9B /* MyBillViewController.xib */,
+			);
+			path = "我的账单";
+			sourceTree = "<group>";
+		};
+		CCB134031BFC2125000E5F9B /* 种植历史 */ = {
+			isa = PBXGroup;
+			children = (
+				CCB134041BFC2125000E5F9B /* PlantHistoryTableViewCell.xib */,
+				CCB134051BFC2125000E5F9B /* PlantHistoryViewController.h */,
+				CCB134061BFC2125000E5F9B /* PlantHistoryViewController.m */,
+				CCB134071BFC2125000E5F9B /* PlantHistoryViewController.xib */,
+			);
+			path = "种植历史";
+			sourceTree = "<group>";
+		};
+		CCB134081BFC2125000E5F9B /* 账户与安全 */ = {
+			isa = PBXGroup;
+			children = (
+				CCB134091BFC2125000E5F9B /* AccountAndSafeViewController.h */,
+				CCB1340A1BFC2125000E5F9B /* AccountAndSafeViewController.m */,
+				CCB1340B1BFC2125000E5F9B /* AccountAndSafeViewController.xib */,
+				CCB1340C1BFC2125000E5F9B /* 修改密码 */,
+				CCB134131BFC2125000E5F9B /* 隐私设置 */,
+			);
+			path = "账户与安全";
+			sourceTree = "<group>";
+		};
+		CCB1340C1BFC2125000E5F9B /* 修改密码 */ = {
+			isa = PBXGroup;
+			children = (
+				CCB1340D1BFC2125000E5F9B /* ChangePasswordViewController.h */,
+				CCB1340E1BFC2125000E5F9B /* ChangePasswordViewController.m */,
+				CCB1340F1BFC2125000E5F9B /* ChangePasswordViewController.xib */,
+				CCB134101BFC2125000E5F9B /* PrivacySetViewController.h */,
+				CCB134111BFC2125000E5F9B /* PrivacySetViewController.m */,
+				CCB134121BFC2125000E5F9B /* PrivacySetViewController.xib */,
+			);
+			path = "修改密码";
+			sourceTree = "<group>";
+		};
+		CCB134131BFC2125000E5F9B /* 隐私设置 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "隐私设置";
+			sourceTree = "<group>";
+		};
+		CCB134141BFC2125000E5F9B /* 活动 */ = {
+			isa = PBXGroup;
+			children = (
+				CCB134151BFC2125000E5F9B /* ActivityViewController.h */,
+				CCB134161BFC2125000E5F9B /* ActivityViewController.m */,
+				CCB134171BFC2125000E5F9B /* ActivityViewController.xib */,
+			);
+			path = "活动";
+			sourceTree = "<group>";
+		};
+		CCB134181BFC2125000E5F9B /* 酒店 */ = {
+			isa = PBXGroup;
+			children = (
+				CCB134191BFC2125000E5F9B /* HotelViewController.h */,
+				CCB1341A1BFC2125000E5F9B /* HotelViewController.m */,
+				CCB1341B1BFC2125000E5F9B /* HotelViewController.xib */,
+			);
+			path = "酒店";
+			sourceTree = "<group>";
+		};
+		CCB1341C1BFC2125000E5F9B /* 联系我们 */ = {
+			isa = PBXGroup;
+			children = (
+				CCB1341D1BFC2125000E5F9B /* ContactUsViewController.h */,
+				CCB1341E1BFC2125000E5F9B /* ContactUsViewController.m */,
+				CCB1341F1BFC2125000E5F9B /* ContactUsViewController.xib */,
+			);
+			path = "联系我们";
+			sourceTree = "<group>";
+		};
+		CCB134201BFC2125000E5F9B /* 农庄 */ = {
+			isa = PBXGroup;
+			children = (
+				CCB134211BFC2125000E5F9B /* FarmTableViewCell.xib */,
+				CCB134221BFC2125000E5F9B /* FarmViewController.h */,
+				CCB134231BFC2125000E5F9B /* FarmViewController.m */,
+				CCB134241BFC2125000E5F9B /* FarmViewController.xib */,
+				CCB134251BFC2125000E5F9B /* 菜单详情 */,
+				CCB1342A1BFC2125000E5F9B /* 购物车 */,
+			);
+			path = "农庄";
+			sourceTree = "<group>";
+		};
+		CCB134251BFC2125000E5F9B /* 菜单详情 */ = {
+			isa = PBXGroup;
+			children = (
+				CCB134261BFC2125000E5F9B /* MenuListCell.xib */,
+				CCB134271BFC2125000E5F9B /* MenuListViewController.h */,
+				CCB134281BFC2125000E5F9B /* MenuListViewController.m */,
+				CCB134291BFC2125000E5F9B /* MenuListViewController.xib */,
+			);
+			path = "菜单详情";
+			sourceTree = "<group>";
+		};
+		CCB1342A1BFC2125000E5F9B /* 购物车 */ = {
+			isa = PBXGroup;
+			children = (
+				CCB1342B1BFC2125000E5F9B /* ShoppingCartViewController.h */,
+				CCB1342C1BFC2125000E5F9B /* ShoppingCartViewController.m */,
+				CCB1342D1BFC2125000E5F9B /* ShoppingCartViewController.xib */,
+			);
+			path = "购物车";
+			sourceTree = "<group>";
+		};
+		CCB1342E1BFC2125000E5F9B /* 游戏 */ = {
+			isa = PBXGroup;
+			children = (
+				CCB1342F1BFC2125000E5F9B /* GameViewController.h */,
+				CCB134301BFC2125000E5F9B /* GameViewController.m */,
+				CCB134311BFC2125000E5F9B /* GameViewController.xib */,
+			);
+			path = "游戏";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -1480,25 +1886,38 @@
 			buildActionMask = 2147483647;
 			files = (
 				189B72F61BFAD06E00E2A90C /* shopMallVC.xib in Resources */,
+				CCB134521BFC2125000E5F9B /* AccountAndSafeViewController.xib in Resources */,
 				845FE2231BF47BCB0011C247 /* 农场(1)_20.png in Resources */,
+				CCB1344B1BFC2125000E5F9B /* MyBillTableViewCell.xib in Resources */,
+				CCB134431BFC2125000E5F9B /* MyMessageViewController.xib in Resources */,
+				CCB134411BFC2125000E5F9B /* AddNewAddressViewController.xib in Resources */,
+				CCB1345D1BFC2125000E5F9B /* FarmTableViewCell.xib in Resources */,
 				189B73211BFAD16B00E2A90C /* three1.jpg in Resources */,
 				845FE1BE1BF47BCB0011C247 /* 富农.png in Resources */,
 				189B73001BFAD06E00E2A90C /* SpecialtyVC.xib in Resources */,
+				CCB134581BFC2125000E5F9B /* ActivityViewController.xib in Resources */,
 				845FE2171BF47BCB0011C247 /* 1 (3).png in Resources */,
 				189B73161BFAD06E00E2A90C /* EmailVC.xib in Resources */,
 				845FE2351BF47BCB0011C247 /* 144.png in Resources */,
 				1881E6891BF7255D00389A54 /* Default-568h@2x.png in Resources */,
+				CCB134481BFC2125000E5F9B /* MyWalletViewController.xib in Resources */,
 				845FE1DB1BF47BCB0011C247 /* 发现_22.png in Resources */,
+				CCB134321BFC2125000E5F9B /* PersonalCenterCell.xib in Resources */,
 				845FE2101BF47BCB0011C247 /* 地址_03.png in Resources */,
 				845FE23E1BF47BCB0011C247 /* 87.png in Resources */,
+				CCB1344D1BFC2125000E5F9B /* MyBillViewController.xib in Resources */,
+				CCB1343A1BFC2125000E5F9B /* IdeaAndFeedbackViewController.xib in Resources */,
 				845FE1F11BF47BCB0011C247 /* 酒店-详情_13.png in Resources */,
 				845FE1D91BF47BCB0011C247 /* 发现_15.png in Resources */,
 				845FE22F1BF47BCB0011C247 /* 土地托管-参与体验_03.png in Resources */,
 				845FE22A1BF47BCB0011C247 /* 农场-租土地_09.png in Resources */,
+				CCB134501BFC2125000E5F9B /* PlantHistoryViewController.xib in Resources */,
 				845FE1D71BF47BCB0011C247 /* 发现_12.png in Resources */,
 				845FE2091BF47BCB0011C247 /* 商城-首页_05.png in Resources */,
 				845FE21B1BF47BCB0011C247 /* 关注_12.png in Resources */,
+				CCB1346F1BFC21D7000E5F9B /* 发现_21.png in Resources */,
 				845FE1E41BF47BCB0011C247 /* 论坛_07.png in Resources */,
+				CCB134601BFC2125000E5F9B /* MenuListCell.xib in Resources */,
 				845FE24F1BF47BCB0011C247 /* 三方登录_07.png in Resources */,
 				845FE1FD1BF47BCB0011C247 /* 隐私设置_06.png in Resources */,
 				845FE21E1BF47BCB0011C247 /* 农场(1)_07.png in Resources */,
@@ -1506,7 +1925,9 @@
 				845FE21C1BF47BCB0011C247 /* 关注_17.png in Resources */,
 				189B73141BFAD06E00E2A90C /* SignVC.xib in Resources */,
 				183AA6E91BFB20DF008E3C27 /* 西红柿1.jpg in Resources */,
+				CCB1343D1BFC2125000E5F9B /* MyAddressViewController.xib in Resources */,
 				845FE2441BF47BCB0011C247 /* app_033.png in Resources */,
+				CCB134541BFC2125000E5F9B /* ChangePasswordViewController.xib in Resources */,
 				845FE1DD1BF47BCB0011C247 /* 我的消息_06.png in Resources */,
 				845FE2501BF47BCB0011C247 /* 注册_03.png in Resources */,
 				189B72F11BFAD06E00E2A90C /* MallVC.xib in Resources */,
@@ -1516,6 +1937,7 @@
 				845FE2381BF47BCB0011C247 /* 36.png in Resources */,
 				845FE1F41BF47BCB0011C247 /* 酒店-详情_26.png in Resources */,
 				845FE09D1BF479DE0011C247 /* ActionVC.xib in Resources */,
+				CCB134441BFC2125000E5F9B /* MyOrderTableViewCell.xib in Resources */,
 				845FE2111BF47BCB0011C247 /* 民间特产详情_02.png in Resources */,
 				845FE2391BF47BCB0011C247 /* 48.png in Resources */,
 				845FE22E1BF47BCB0011C247 /* 农场-租土地_26.png in Resources */,
@@ -1525,6 +1947,7 @@
 				845FE2431BF47BCB0011C247 /* app_03.png in Resources */,
 				845FE2451BF47BCB0011C247 /* app_0337.png in Resources */,
 				189B730C1BFAD06E00E2A90C /* MyfriendVC.xib in Resources */,
+				CCB1344E1BFC2125000E5F9B /* PlantHistoryTableViewCell.xib in Resources */,
 				845FE1DE1BF47BCB0011C247 /* 没有消息-1_03.png in Resources */,
 				845FE1D81BF47BCB0011C247 /* 发现_13.png in Resources */,
 				845FE23F1BF47BCB0011C247 /* 96.png in Resources */,
@@ -1547,6 +1970,7 @@
 				845FE24C1BF47BCB0011C247 /* PNG背景.jpg in Resources */,
 				845FE1BF1BF47BCB0011C247 /* 平农.png in Resources */,
 				189B730E1BFAD06E00E2A90C /* HomePageVC.xib in Resources */,
+				CCB134561BFC2125000E5F9B /* PrivacySetViewController.xib in Resources */,
 				189B73101BFAD06E00E2A90C /* ForgetPassVC.xib in Resources */,
 				845FE24E1BF47BCB0011C247 /* 三方登录_05.png in Resources */,
 				845FE1D41BF47BCB0011C247 /* 发现_03.png in Resources */,
@@ -1555,25 +1979,29 @@
 				189B73271BFAD16B00E2A90C /* xiangq2.jpg in Resources */,
 				845FE2061BF47BCB0011C247 /* 上架_07.png in Resources */,
 				845FE1CE1BF47BCB0011C247 /* 个人中心_18.png in Resources */,
-				189B72EA1BFAD06E00E2A90C /* DiscoverVC.xib in Resources */,
 				845FE1CA1BF47BCB0011C247 /* 个人中心_10.png in Resources */,
 				845FE2521BF47BCB0011C247 /* 箭头1_03.png in Resources */,
 				845FE22B1BF47BCB0011C247 /* 农场-租土地_12.png in Resources */,
 				845FE2291BF47BCB0011C247 /* 农场-租土地_06.png in Resources */,
 				845FE2261BF47BCB0011C247 /* 农场(1)_26.png in Resources */,
+				CCB1343B1BFC2125000E5F9B /* MyAddressTableViewCell.xib in Resources */,
 				845FE2011BF47BCB0011C247 /* footer2.png in Resources */,
+				CCB134361BFC2125000E5F9B /* FunctionIntroductionViewController.xib in Resources */,
 				845FE2001BF47BCB0011C247 /* footer1.png in Resources */,
 				845FE1F51BF47BCB0011C247 /* 酒店-详情_30.png in Resources */,
 				845FE1C61BF47BCB0011C247 /* 购物车为空_03.png in Resources */,
 				845FE1BB1BF47BCB0011C247 /* 付款成功_03.png in Resources */,
 				845FE1E61BF47BCB0011C247 /* 论坛_15.png in Resources */,
 				845FE2491BF47BCB0011C247 /* app_18.png in Resources */,
+				CCB134381BFC2125000E5F9B /* PersonalInformationViewController.xib in Resources */,
 				845FE1E11BF47BCB0011C247 /* 编辑资料_09.png in Resources */,
 				845FE2631BF48A720011C247 /* nav.png in Resources */,
 				845FE1FC1BF47BCB0011C247 /* 隐私设置_03.png in Resources */,
 				845FE0731BF477F30011C247 /* Images.xcassets in Resources */,
+				CCB1344A1BFC2125000E5F9B /* PayViewController.xib in Resources */,
 				845FE2241BF47BCB0011C247 /* 农场(1)_22.png in Resources */,
 				845FE1C81BF47BCB0011C247 /* 个人中心_06.png in Resources */,
+				CCB134661BFC2125000E5F9B /* GameViewController.xib in Resources */,
 				845FE1CF1BF47BCB0011C247 /* 个人中心_20.png in Resources */,
 				189B732C1BFADCF100E2A90C /* touxiang1.jpg in Resources */,
 				845FE1FA1BF47BCB0011C247 /* 酒店_15.png in Resources */,
@@ -1585,12 +2013,15 @@
 				845FE1F01BF47BCB0011C247 /* 酒店-详情_11.png in Resources */,
 				189B72EC1BFAD06E00E2A90C /* MallInfomationVC.xib in Resources */,
 				845FE2051BF47BCB0011C247 /* 上架_03.png in Resources */,
+				CCB134711BFC21D7000E5F9B /* 获奖信息1_03.png in Resources */,
 				845FE1E01BF47BCB0011C247 /* 编辑资料_07.png in Resources */,
 				183AA6EF1BFB229A008E3C27 /* BackpackVC.xib in Resources */,
 				845FE2611BF488BE0011C247 /* footer5_ed.png in Resources */,
 				845FE2551BF47BCB0011C247 /* 背景10_02.png in Resources */,
 				845FE1BD1BF47BCB0011C247 /* 基本信息2_03.png in Resources */,
+				CCB1343F1BFC2125000E5F9B /* ModifyAddressViewController.xib in Resources */,
 				845FE1F71BF47BCB0011C247 /* 酒店_07.png in Resources */,
+				CCB134701BFC21D7000E5F9B /* 发现_29.png in Resources */,
 				845FE1C31BF47BCB0011C247 /* 收银台_08.png in Resources */,
 				845FE1FE1BF47BCB0011C247 /* 2商城-首页-民间特产-销量_07 (1).png in Resources */,
 				845FE2361BF47BCB0011C247 /* 180.png in Resources */,
@@ -1609,10 +2040,13 @@
 				845FE21A1BF47BCB0011C247 /* 关注_10.png in Resources */,
 				845FE1E71BF47BCB0011C247 /* 论坛_19.png in Resources */,
 				845FE2421BF47BCB0011C247 /* app_023.png in Resources */,
+				CCB1345A1BFC2125000E5F9B /* HotelViewController.xib in Resources */,
 				189B72F91BFAD06E00E2A90C /* ManageVC.xib in Resources */,
 				845FE2141BF47BCB0011C247 /* 民间特产详情_07.png in Resources */,
+				CCB1346B1BFC215B000E5F9B /* DiscoverVC.xib in Resources */,
 				845FE2401BF47BCB0011C247 /* 农作物生长视频_03.png in Resources */,
 				845FE1FF1BF47BCB0011C247 /* 2商城-首页-民间特产-销量_07 (2).png in Resources */,
+				CCB1345F1BFC2125000E5F9B /* FarmViewController.xib in Resources */,
 				845FE2531BF47BCB0011C247 /* 箭头1_04.png in Resources */,
 				845FE2341BF47BCB0011C247 /* 120.png in Resources */,
 				845FE1EA1BF47BCB0011C247 /* 评价_05.png in Resources */,
@@ -1638,6 +2072,7 @@
 				183AA6E31BFB06C4008E3C27 /* 农场(1)_03.png in Resources */,
 				845FE1D31BF47BCB0011C247 /* 农庄——套餐详情_02.png in Resources */,
 				845FE22C1BF47BCB0011C247 /* 农场-租土地_17.png in Resources */,
+				CCB134641BFC2125000E5F9B /* ShoppingCartViewController.xib in Resources */,
 				845FE1D51BF47BCB0011C247 /* 发现_05.png in Resources */,
 				845FE2461BF47BCB0011C247 /* app_07.png in Resources */,
 				189B72F41BFAD06E00E2A90C /* MallshelvesVC.xib in Resources */,
@@ -1648,7 +2083,9 @@
 				845FE1DA1BF47BCB0011C247 /* 发现_20.png in Resources */,
 				189B73261BFAD16B00E2A90C /* xiangq1.jpg in Resources */,
 				845FE2411BF47BCB0011C247 /* app_02233.png in Resources */,
+				CCB134461BFC2125000E5F9B /* MyOrderViewController.xib in Resources */,
 				845FE23C1BF47BCB0011C247 /* 72.png in Resources */,
+				CCB134621BFC2125000E5F9B /* MenuListViewController.xib in Resources */,
 				845FE1BC1BF47BCB0011C247 /* 土豪.png in Resources */,
 				845FE2571BF47BCB0011C247 /* 返回按键_03.png in Resources */,
 				845FE1F61BF47BCB0011C247 /* 酒店_03.png in Resources */,
@@ -1658,11 +2095,13 @@
 				189B73121BFAD06E00E2A90C /* RegierVC.xib in Resources */,
 				845FE2071BF47BCB0011C247 /* 商城-首页-个人商城-详情_03.png in Resources */,
 				845FE2161BF47BCB0011C247 /* 1 (2).png in Resources */,
+				CCB134341BFC2125000E5F9B /* PersonalCenterViewController.xib in Resources */,
 				845FE1EC1BF47BCB0011C247 /* 评价_12.png in Resources */,
 				845FE2041BF47BCB0011C247 /* footer5.png in Resources */,
 				845FE1E31BF47BCB0011C247 /* 论坛_03.png in Resources */,
 				845FE1D21BF47BCB0011C247 /* 充值_06.png in Resources */,
 				845FE1ED1BF47BCB0011C247 /* 酒店-详情_03.png in Resources */,
+				CCB1345C1BFC2125000E5F9B /* ContactUsViewController.xib in Resources */,
 				845FE2081BF47BCB0011C247 /* 商城-首页_03.png in Resources */,
 				845FE2251BF47BCB0011C247 /* 农场(1)_24.png in Resources */,
 				845FE2371BF47BCB0011C247 /* 28.png in Resources */,
@@ -1694,22 +2133,30 @@
 				845FE0C11BF47A3E0011C247 /* IQTitleBarButtonItem.m in Sources */,
 				183AA6E71BFB1229008E3C27 /* FarmMenuCell.m in Sources */,
 				845FE0EC1BF47B040011C247 /* ZZStringSize.m in Sources */,
+				CCB134421BFC2125000E5F9B /* MyMessageViewController.m in Sources */,
 				189B73081BFAD06E00E2A90C /* OrderCell.m in Sources */,
 				845FE0951BF4787C0011C247 /* FatherVC.m in Sources */,
 				183AA6EE1BFB229A008E3C27 /* BackpackVC.m in Sources */,
 				845FE0E11BF47A650011C247 /* NSDate+RFC1123.m in Sources */,
 				189B730F1BFAD06E00E2A90C /* ForgetPassVC.m in Sources */,
 				189B73051BFAD06E00E2A90C /* FolkSeedCell.m in Sources */,
+				CCB1343C1BFC2125000E5F9B /* MyAddressViewController.m in Sources */,
 				189B72FE1BFAD06E00E2A90C /* MallDetailsCell.m in Sources */,
+				CCB134401BFC2125000E5F9B /* AddNewAddressViewController.m in Sources */,
 				189B72F01BFAD06E00E2A90C /* MallVC.m in Sources */,
+				CCB1344C1BFC2125000E5F9B /* MyBillViewController.m in Sources */,
 				189B73151BFAD06E00E2A90C /* EmailVC.m in Sources */,
+				CCB134531BFC2125000E5F9B /* ChangePasswordViewController.m in Sources */,
 				189B73031BFAD06E00E2A90C /* FolkDetailsVC.m in Sources */,
 				845FE06B1BF477F30011C247 /* AppDelegate.m in Sources */,
 				189B72F81BFAD06E00E2A90C /* ManageVC.m in Sources */,
+				CCB1346A1BFC215B000E5F9B /* DiscoverVC.m in Sources */,
 				189B72F71BFAD06E00E2A90C /* onAndOffCell.m in Sources */,
 				183AA6FD1BFB4EF7008E3C27 /* OwnSeedCell.m in Sources */,
+				CCB134651BFC2125000E5F9B /* GameViewController.m in Sources */,
 				189B730D1BFAD06E00E2A90C /* HomePageVC.m in Sources */,
 				189B73011BFAD06E00E2A90C /* MainSpeCell.m in Sources */,
+				CCB134591BFC2125000E5F9B /* HotelViewController.m in Sources */,
 				845FE0C41BF47A3E0011C247 /* UIView+Hierarchy.m in Sources */,
 				189B72EB1BFAD06E00E2A90C /* MallInfomationVC.m in Sources */,
 				845FE0BB1BF47A3E0011C247 /* ZZLoadView.m in Sources */,
@@ -1719,23 +2166,36 @@
 				189B730B1BFAD06E00E2A90C /* MyfriendVC.m in Sources */,
 				189B73021BFAD06E00E2A90C /* MainSpeV.m in Sources */,
 				189B72F21BFAD06E00E2A90C /* MallOneCell.m in Sources */,
+				CCB134491BFC2125000E5F9B /* PayViewController.m in Sources */,
 				845FE0C51BF47A3E0011C247 /* UIView+IQKeyboardToolbar.m in Sources */,
 				189B73111BFAD06E00E2A90C /* RegierVC.m in Sources */,
 				189B72EE1BFAD06E00E2A90C /* PromotionImageV.m in Sources */,
 				845FE0971BF4787C0011C247 /* TabBarControl.m in Sources */,
 				189B72FB1BFAD06E00E2A90C /* manageV.m in Sources */,
+				CCB1343E1BFC2125000E5F9B /* ModifyAddressViewController.m in Sources */,
 				189B72EF1BFAD06E00E2A90C /* SearchTF.m in Sources */,
+				CCB134551BFC2125000E5F9B /* PrivacySetViewController.m in Sources */,
 				845FE0DF1BF47A650011C247 /* NSAlert+MKNetworkKitAdditions.m in Sources */,
+				CCB134351BFC2125000E5F9B /* FunctionIntroductionViewController.m in Sources */,
+				CCB134631BFC2125000E5F9B /* ShoppingCartViewController.m in Sources */,
+				CCB1345B1BFC2125000E5F9B /* ContactUsViewController.m in Sources */,
+				CCB134371BFC2125000E5F9B /* PersonalInformationViewController.m in Sources */,
+				CCB134611BFC2125000E5F9B /* MenuListViewController.m in Sources */,
 				845FE0E41BF47A650011C247 /* UIAlertView+MKNetworkKitAdditions.m in Sources */,
+				CCB134451BFC2125000E5F9B /* MyOrderViewController.m in Sources */,
+				CCB1345E1BFC2125000E5F9B /* FarmViewController.m in Sources */,
 				845FE0BC1BF47A3E0011C247 /* DoAllNull.m in Sources */,
 				183AA6F81BFB291B008E3C27 /* SeedVC.m in Sources */,
 				189B72F51BFAD06E00E2A90C /* shopMallVC.m in Sources */,
+				CCB134391BFC2125000E5F9B /* IdeaAndFeedbackViewController.m in Sources */,
 				189B72FA1BFAD06E00E2A90C /* ManageCell.m in Sources */,
 				845FE0E51BF47A650011C247 /* UIImageView+MKNetworkKitAdditions.m in Sources */,
 				845FE09C1BF479DE0011C247 /* ActionVC.m in Sources */,
-				189B72E91BFAD06E00E2A90C /* DiscoverVC.m in Sources */,
 				845FE0E71BF47A650011C247 /* MKNetworkOperation.m in Sources */,
+				CCB134571BFC2125000E5F9B /* ActivityViewController.m in Sources */,
 				189B72ED1BFAD06E00E2A90C /* MenuImageV.m in Sources */,
+				CCB134331BFC2125000E5F9B /* PersonalCenterViewController.m in Sources */,
+				CCB134471BFC2125000E5F9B /* MyWalletViewController.m in Sources */,
 				845FE0E31BF47A650011C247 /* NSString+MKNetworkKitAdditions.m in Sources */,
 				845FE0C61BF47A3E0011C247 /* UIWindow+Hierarchy.m in Sources */,
 				189B73131BFAD06E00E2A90C /* SignVC.m in Sources */,
@@ -1744,12 +2204,14 @@
 				845FE0BF1BF47A3E0011C247 /* IQSegmentedNextPrevious.m in Sources */,
 				845FE0E61BF47A650011C247 /* MKNetworkEngine.m in Sources */,
 				189B73061BFAD06E00E2A90C /* BuyOrderVC.m in Sources */,
+				CCB1344F1BFC2125000E5F9B /* PlantHistoryViewController.m in Sources */,
 				845FE0C01BF47A3E0011C247 /* IQTextView.m in Sources */,
 				845FE0E01BF47A650011C247 /* NSData+MKBase64.m in Sources */,
 				845FE0E81BF47A650011C247 /* Reachability.m in Sources */,
 				845FE0961BF4787C0011C247 /* NavigationControl.m in Sources */,
 				189B72FF1BFAD06E00E2A90C /* SpecialtyVC.m in Sources */,
 				189B732A1BFAD54D00E2A90C /* EvaluationCell.m in Sources */,
+				CCB134511BFC2125000E5F9B /* AccountAndSafeViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

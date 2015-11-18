@@ -1,32 +1,25 @@
 //
-//  DiscoverVC.m
-//  PigFarm
+//  IdeaAndFeedbackViewController.m
+//  xiaozhunongchang
 //
-//  Created by 技术部－张劲松 on 15/11/12.
-//  Copyright (c) 2015年 技术部－张劲松. All rights reserved.
+//  Created by 罗鸿博 on 15/11/17.
+//  Copyright © 2015年 技术部－张劲松. All rights reserved.
 //
 
-#import "DiscoverVC.h"
+#import "IdeaAndFeedbackViewController.h"
 
-@interface DiscoverVC ()
+@interface IdeaAndFeedbackViewController ()
 
 @end
 
-@implementation DiscoverVC
+@implementation IdeaAndFeedbackViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
+    [self setNavLeftBtnWithImg];
+    self.title = @"意见与反馈";
+    // Do any additional setup after loading the view from its nib.
 }
-
-- (void)viewWillAppear:(BOOL)animated {
-    [self hidenTabBar];
-}
-
-- (void)hidenTabBar {
-    self.tabBarController.hidesBottomBarWhenPushed = NO;
-}
-
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
