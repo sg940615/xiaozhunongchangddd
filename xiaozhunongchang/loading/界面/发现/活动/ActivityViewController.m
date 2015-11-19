@@ -55,14 +55,39 @@
     _AllCollectionView = [[UICollectionView alloc] initWithFrame:CGRectMake(0, 30, ScreenWidth, ScreenHeight - 94) collectionViewLayout:layout];
     _AllCollectionView.delegate = self;
     _AllCollectionView.dataSource = self;
-    
     [self.view addSubview:_AllCollectionView];
+    [_AllCollectionView registerClass:[UICollectionViewCell class] forCellWithReuseIdentifier:@"a"];
+    _AllCollectionView.backgroundColor = [UIColor whiteColor];
 }
 
 - (NSInteger) collectionView:(UICollectionView *)collectionView numberOfItemsInSection:(NSInteger)section {
     return 5;
 }
 
+- (UICollectionViewCell *)collectionView:(UICollectionView *)collectionView cellForItemAtIndexPath:(NSIndexPath *)indexPath {
+    UICollectionViewCell *cell = [collectionView dequeueReusableCellWithReuseIdentifier:@"a" forIndexPath:indexPath];
+    if (!cell) {
+        cell = [[[NSBundle mainBundle]loadNibNamed:@"ActivityCollectionCell" owner:nil options:nil] lastObject];
+    }
+//    cell.backgroundColor = [UIColor redColor];
+    return cell;
+}
+
+- (CGSize)collectionView:(UICollectionView *)collectionView layout:(UICollectionViewLayout *)collectionViewLayout sizeForItemAtIndexPath:(NSIndexPath *)indexPath{
+    //第一个参数是宽，第二个参数是高
+    return CGSizeMake(150, 150);
+    //横屏滑动时：（0，0）  最左边最上边  最左边最下边
+    //竖屏滑动时：（0，0）  最左边最上边  最右边最上边
+    //460 - 240 - 100
+    //460 - 160 - 160  = 140 - 100
+    //460 - 200 - 100/160 - 100/60
+}
+
+
+- (UIEdgeInsets)collectionView:(UICollectionView *)collectionView layout:(UICollectionViewLayout *)collectionViewLayout insetForSectionAtIndex:(NSInteger)section{
+    //上左下右
+    return UIEdgeInsetsMake(5, 5, 5, 5);
+}
 
 
 @end

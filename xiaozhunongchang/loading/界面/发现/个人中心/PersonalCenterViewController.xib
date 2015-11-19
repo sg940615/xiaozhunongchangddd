@@ -59,8 +59,8 @@
                     <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                     <nil key="highlightedColor"/>
                 </label>
-                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="32e-gh-qYs">
-                    <rect key="frame" x="135" y="8" width="115" height="30"/>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="土豪.png" id="32e-gh-qYs">
+                    <rect key="frame" x="133" y="8" width="75" height="30"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                     <animations/>
                 </imageView>
@@ -79,4 +79,7 @@
             <point key="canvasLocation" x="786" y="366.5"/>
         </view>
     </objects>
+    <resources>
+        <image name="土豪.png" width="131" height="50"/>
+    </resources>
 </document>

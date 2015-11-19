@@ -25,6 +25,7 @@
     _MyWalletTableView.delegate = self;
     _MyWalletTableView.dataSource = self;
     _MyWalletTableView.separatorStyle = UITableViewCellSeparatorStyleNone;
+    _MyWalletTableView.scrollEnabled = NO;
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {

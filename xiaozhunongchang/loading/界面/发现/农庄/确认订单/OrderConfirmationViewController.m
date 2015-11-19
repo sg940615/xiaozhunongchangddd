@@ -1,49 +1,51 @@
 //
-//  ShoppingCartViewController.m
+//  OrderConfirmationViewController.m
 //  xiaozhunongchang
 //
-//  Created by 罗鸿博 on 15/11/17.
+//  Created by 罗鸿博 on 15/11/18.
 //  Copyright © 2015年 技术部－张劲松. All rights reserved.
 //
 
-#import "ShoppingCartViewController.h"
+#import "OrderConfirmationViewController.h"
 
-@interface ShoppingCartViewController () <UITableViewDataSource,UITableViewDelegate>
+@interface OrderConfirmationViewController () <UITableViewDelegate, UITableViewDataSource>
 
 @end
 
-@implementation ShoppingCartViewController
+@implementation OrderConfirmationViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    self.hidesBottomBarWhenPushed = YES;
-    self.title = @"购物车";
     [self setNavLeftBtnWithImg];
+    self.title = @"确认订单";
     // Do any additional setup after loading the view from its nib.
-    _shoppingcartTableView.delegate = self;
-    _shoppingcartTableView.dataSource = self;
-    _shoppingcartTableView.separatorStyle = UITableViewCellSeparatorStyleNone;
+    _orderTableView.delegate = self;
+    _orderTableView.dataSource = self;
+    _orderTableView.tableHeaderView = _header;
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
-    return 6;
+    return 5;
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"a"];
     if (!cell) {
-        cell = [[[NSBundle mainBundle]loadNibNamed:@"ShoppingCartCell" owner:nil options:nil] lastObject];
+        cell = [[[NSBundle mainBundle] loadNibNamed:@"OrderConfirmationCell" owner:nil options:nil] lastObject];
     }
     if (indexPath.row == 0) {
         [self addFenGeXian:cell andRect:CGRectMake(0, 0, ScreenWidth, 1)];
     }
+    cell.userInteractionEnabled = NO;
     return cell;
 }
 
 - (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath {
-    return 90;
+    return 80;
 }
 
-
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
+    [tableView deselectRowAtIndexPath:indexPath animated:YES];
+}
 
 @end

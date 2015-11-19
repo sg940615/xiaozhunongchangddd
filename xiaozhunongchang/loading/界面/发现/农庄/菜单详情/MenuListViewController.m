@@ -7,6 +7,7 @@
 //
 
 #import "MenuListViewController.h"
+#import "OrderConfirmationViewController.h"
 
 @interface MenuListViewController () <UITableViewDataSource,UITableViewDelegate>
 
@@ -24,6 +25,11 @@
     _menuListTableView.dataSource = self;
     _menuListTableView.tableHeaderView = _header;
     _menuListTableView.separatorStyle = UITableViewCellSeparatorStyleNone;
+}
+
+- (IBAction)buy:(id)sender {
+    OrderConfirmationViewController *order = [[OrderConfirmationViewController alloc] init];
+    [self.navigationController pushViewController:order animated:YES];
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {

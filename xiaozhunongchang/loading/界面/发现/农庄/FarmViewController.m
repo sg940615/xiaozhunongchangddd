@@ -8,6 +8,7 @@
 
 #import "FarmViewController.h"
 #import "MenuListViewController.h"
+#import "ShoppingCartViewController.h"
 
 @interface FarmViewController () <UITableViewDataSource,UITableViewDelegate>
 
@@ -23,6 +24,17 @@
     // Do any additional setup after loading the view from its nib.
     _menuTableView.delegate = self;
     _menuTableView.dataSource = self;
+    
+    UIButton *shopBtn = [UIButton buttonWithType:UIButtonTypeCustom];
+    shopBtn.frame = CGRectMake(ScreenWidth - 100, ScreenHeight - 180, 45, 45);
+    [shopBtn setImage:[UIImage imageNamed:@"民间特产详情_07"] forState:UIControlStateNormal];
+    [shopBtn addTarget:self action:@selector(shopBtnClicked) forControlEvents:UIControlEventTouchUpInside];
+    [self.view addSubview:shopBtn];
+}
+
+- (void)shopBtnClicked {
+    ShoppingCartViewController *shop = [[ShoppingCartViewController alloc] init];
+    [self.navigationController pushViewController:shop animated:YES];
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
@@ -45,5 +57,6 @@
     MenuListViewController *menuList = [[MenuListViewController alloc] init];
     [self.navigationController pushViewController:menuList animated:YES];
 }
+
 
 @end

@@ -22,6 +22,7 @@
     _MyBillTableView.delegate = self;
     _MyBillTableView.dataSource = self;
     _MyBillTableView.separatorStyle = UITableViewCellSeparatorStyleNone;
+    _MyBillTableView.showsVerticalScrollIndicator = NO;
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {

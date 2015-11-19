@@ -74,7 +74,7 @@
                                     <animations/>
                                 </imageView>
                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="赶快加入我们，小猪农场，人人都是农场主" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="ns9-tg-fl0">
-                                    <rect key="frame" x="76" y="2" width="236" height="21"/>
+                                    <rect key="frame" x="76" y="8" width="236" height="15"/>
                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     <animations/>
                                     <fontDescription key="fontDescription" type="system" pointSize="12"/>
@@ -82,15 +82,15 @@
                                     <nil key="highlightedColor"/>
                                 </label>
                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="不介意你也一起来" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="cbU-nQ-wov">
-                                    <rect key="frame" x="76" y="21" width="236" height="21"/>
+                                    <rect key="frame" x="76" y="21" width="236" height="17"/>
                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     <animations/>
                                     <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                     <color key="textColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                     <nil key="highlightedColor"/>
                                 </label>
-                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="b9z-4I-sy2">
-                                    <rect key="frame" x="4" y="4" width="37" height="35"/>
+                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="01酒店_小猪众筹.png" id="b9z-4I-sy2">
+                                    <rect key="frame" x="8" y="8" width="32" height="28"/>
                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     <animations/>
                                 </imageView>
@@ -142,6 +142,7 @@
         </view>
     </objects>
     <resources>
+        <image name="01酒店_小猪众筹.png" width="56" height="56"/>
         <image name="酒店_07.png" width="32" height="32"/>
     </resources>
 </document>

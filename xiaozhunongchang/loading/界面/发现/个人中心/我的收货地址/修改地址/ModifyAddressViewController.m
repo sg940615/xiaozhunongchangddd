@@ -22,6 +22,7 @@
     _ModifyAddressTableView.delegate = self;
     _ModifyAddressTableView.dataSource = self;
     _ModifyAddressTableView.separatorStyle = UITableViewCellSeparatorStyleNone;
+    _ModifyAddressTableView.scrollEnabled = NO;
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
@@ -31,7 +32,7 @@
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"a"];
     if (!cell) {
-        cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:@"a"];
+        cell = [[[NSBundle mainBundle]loadNibNamed:@"ModifyAddressCell" owner:nil options:nil] lastObject];
     }
     cell.accessoryType = UITableViewCellAccessoryDisclosureIndicator;
     cell.textLabel.font = [UIFont systemFontOfSize:14];
@@ -43,6 +44,8 @@
     return cell;
 }
 
-
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
+    [tableView deselectRowAtIndexPath:indexPath animated:YES];
+}
 
 @end

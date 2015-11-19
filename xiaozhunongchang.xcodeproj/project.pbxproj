@@ -318,6 +318,19 @@
 		CCB1346F1BFC21D7000E5F9B /* 发现_21.png in Resources */ = {isa = PBXBuildFile; fileRef = CCB1346C1BFC21D7000E5F9B /* 发现_21.png */; settings = {ASSET_TAGS = (); }; };
 		CCB134701BFC21D7000E5F9B /* 发现_29.png in Resources */ = {isa = PBXBuildFile; fileRef = CCB1346D1BFC21D7000E5F9B /* 发现_29.png */; settings = {ASSET_TAGS = (); }; };
 		CCB134711BFC21D7000E5F9B /* 获奖信息1_03.png in Resources */ = {isa = PBXBuildFile; fileRef = CCB1346E1BFC21D7000E5F9B /* 获奖信息1_03.png */; settings = {ASSET_TAGS = (); }; };
+		CCB134731BFC3EA6000E5F9B /* ShoppingCartCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CCB134721BFC3EA6000E5F9B /* ShoppingCartCell.xib */; settings = {ASSET_TAGS = (); }; };
+		CCB134781BFC4652000E5F9B /* OrderConfirmationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CCB134761BFC4652000E5F9B /* OrderConfirmationViewController.m */; settings = {ASSET_TAGS = (); }; };
+		CCB134791BFC4652000E5F9B /* OrderConfirmationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CCB134771BFC4652000E5F9B /* OrderConfirmationViewController.xib */; settings = {ASSET_TAGS = (); }; };
+		CCB1347B1BFC5162000E5F9B /* OrderConfirmationCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CCB1347A1BFC5162000E5F9B /* OrderConfirmationCell.xib */; settings = {ASSET_TAGS = (); }; };
+		CCB1347D1BFC6347000E5F9B /* 01酒店_小猪众筹.png in Resources */ = {isa = PBXBuildFile; fileRef = CCB1347C1BFC6347000E5F9B /* 01酒店_小猪众筹.png */; settings = {ASSET_TAGS = (); }; };
+		CCB1347F1BFC72F9000E5F9B /* HotelTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CCB1347E1BFC72F9000E5F9B /* HotelTableViewCell.xib */; settings = {ASSET_TAGS = (); }; };
+		CCB1348B1BFC9036000E5F9B /* ActivityCollectionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CCB1348A1BFC9036000E5F9B /* ActivityCollectionCell.xib */; settings = {ASSET_TAGS = (); }; };
+		CCDB08E41BFD6BBA00357D3B /* ModifyAddressCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CCDB08E31BFD6BBA00357D3B /* ModifyAddressCell.xib */; settings = {ASSET_TAGS = (); }; };
+		CCDB08E91BFD6E5700357D3B /* HotelInformationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CCDB08E71BFD6E5700357D3B /* HotelInformationViewController.m */; settings = {ASSET_TAGS = (); }; };
+		CCDB08EA1BFD6E5700357D3B /* HotelInformationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CCDB08E81BFD6E5700357D3B /* HotelInformationViewController.xib */; settings = {ASSET_TAGS = (); }; };
+		CCDB08EF1BFD75FE00357D3B /* HotelOrderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CCDB08ED1BFD75FE00357D3B /* HotelOrderViewController.m */; settings = {ASSET_TAGS = (); }; };
+		CCDB08F01BFD75FE00357D3B /* HotelOrderViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CCDB08EE1BFD75FE00357D3B /* HotelOrderViewController.xib */; settings = {ASSET_TAGS = (); }; };
+		CCDB08F21BFD7B4600357D3B /* 04酒店-详情-预定_03.png in Resources */ = {isa = PBXBuildFile; fileRef = CCDB08F11BFD7B4600357D3B /* 04酒店-详情-预定_03.png */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -735,6 +748,22 @@
 		CCB1346C1BFC21D7000E5F9B /* 发现_21.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "发现_21.png"; sourceTree = "<group>"; };
 		CCB1346D1BFC21D7000E5F9B /* 发现_29.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "发现_29.png"; sourceTree = "<group>"; };
 		CCB1346E1BFC21D7000E5F9B /* 获奖信息1_03.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "获奖信息1_03.png"; sourceTree = "<group>"; };
+		CCB134721BFC3EA6000E5F9B /* ShoppingCartCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ShoppingCartCell.xib; sourceTree = "<group>"; };
+		CCB134751BFC4652000E5F9B /* OrderConfirmationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OrderConfirmationViewController.h; sourceTree = "<group>"; };
+		CCB134761BFC4652000E5F9B /* OrderConfirmationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OrderConfirmationViewController.m; sourceTree = "<group>"; };
+		CCB134771BFC4652000E5F9B /* OrderConfirmationViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = OrderConfirmationViewController.xib; sourceTree = "<group>"; };
+		CCB1347A1BFC5162000E5F9B /* OrderConfirmationCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = OrderConfirmationCell.xib; sourceTree = "<group>"; };
+		CCB1347C1BFC6347000E5F9B /* 01酒店_小猪众筹.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "01酒店_小猪众筹.png"; sourceTree = "<group>"; };
+		CCB1347E1BFC72F9000E5F9B /* HotelTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HotelTableViewCell.xib; sourceTree = "<group>"; };
+		CCB1348A1BFC9036000E5F9B /* ActivityCollectionCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ActivityCollectionCell.xib; sourceTree = "<group>"; };
+		CCDB08E31BFD6BBA00357D3B /* ModifyAddressCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ModifyAddressCell.xib; sourceTree = "<group>"; };
+		CCDB08E61BFD6E5700357D3B /* HotelInformationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HotelInformationViewController.h; sourceTree = "<group>"; };
+		CCDB08E71BFD6E5700357D3B /* HotelInformationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HotelInformationViewController.m; sourceTree = "<group>"; };
+		CCDB08E81BFD6E5700357D3B /* HotelInformationViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HotelInformationViewController.xib; sourceTree = "<group>"; };
+		CCDB08EC1BFD75FE00357D3B /* HotelOrderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HotelOrderViewController.h; sourceTree = "<group>"; };
+		CCDB08ED1BFD75FE00357D3B /* HotelOrderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HotelOrderViewController.m; sourceTree = "<group>"; };
+		CCDB08EE1BFD75FE00357D3B /* HotelOrderViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HotelOrderViewController.xib; sourceTree = "<group>"; };
+		CCDB08F11BFD7B4600357D3B /* 04酒店-详情-预定_03.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "04酒店-详情-预定_03.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -1329,6 +1358,7 @@
 		845FE1141BF47BCB0011C247 /* 公用图标 */ = {
 			isa = PBXGroup;
 			children = (
+				CCB1347C1BFC6347000E5F9B /* 01酒店_小猪众筹.png */,
 				845FE1151BF47BCB0011C247 /* 中农.png */,
 				845FE1161BF47BCB0011C247 /* 付款成功_03.png */,
 				845FE1171BF47BCB0011C247 /* 土豪.png */,
@@ -1349,6 +1379,7 @@
 		845FE1221BF47BCB0011C247 /* 发现图标 */ = {
 			isa = PBXGroup;
 			children = (
+				CCDB08F11BFD7B4600357D3B /* 04酒店-详情-预定_03.png */,
 				CCB1346C1BFC21D7000E5F9B /* 发现_21.png */,
 				CCB1346D1BFC21D7000E5F9B /* 发现_29.png */,
 				CCB1346E1BFC21D7000E5F9B /* 获奖信息1_03.png */,
@@ -1620,6 +1651,7 @@
 				CCB133E61BFC2125000E5F9B /* ModifyAddressViewController.h */,
 				CCB133E71BFC2125000E5F9B /* ModifyAddressViewController.m */,
 				CCB133E81BFC2125000E5F9B /* ModifyAddressViewController.xib */,
+				CCDB08E31BFD6BBA00357D3B /* ModifyAddressCell.xib */,
 			);
 			path = "修改地址";
 			sourceTree = "<group>";
@@ -1737,6 +1769,7 @@
 				CCB134151BFC2125000E5F9B /* ActivityViewController.h */,
 				CCB134161BFC2125000E5F9B /* ActivityViewController.m */,
 				CCB134171BFC2125000E5F9B /* ActivityViewController.xib */,
+				CCB1348A1BFC9036000E5F9B /* ActivityCollectionCell.xib */,
 			);
 			path = "活动";
 			sourceTree = "<group>";
@@ -1744,9 +1777,12 @@
 		CCB134181BFC2125000E5F9B /* 酒店 */ = {
 			isa = PBXGroup;
 			children = (
+				CCDB08EB1BFD75EB00357D3B /* 酒店预定 */,
+				CCDB08E51BFD6E4100357D3B /* 酒店详情 */,
 				CCB134191BFC2125000E5F9B /* HotelViewController.h */,
 				CCB1341A1BFC2125000E5F9B /* HotelViewController.m */,
 				CCB1341B1BFC2125000E5F9B /* HotelViewController.xib */,
+				CCB1347E1BFC72F9000E5F9B /* HotelTableViewCell.xib */,
 			);
 			path = "酒店";
 			sourceTree = "<group>";
@@ -1768,6 +1804,7 @@
 				CCB134221BFC2125000E5F9B /* FarmViewController.h */,
 				CCB134231BFC2125000E5F9B /* FarmViewController.m */,
 				CCB134241BFC2125000E5F9B /* FarmViewController.xib */,
+				CCB134741BFC453F000E5F9B /* 确认订单 */,
 				CCB134251BFC2125000E5F9B /* 菜单详情 */,
 				CCB1342A1BFC2125000E5F9B /* 购物车 */,
 			);
@@ -1791,6 +1828,7 @@
 				CCB1342B1BFC2125000E5F9B /* ShoppingCartViewController.h */,
 				CCB1342C1BFC2125000E5F9B /* ShoppingCartViewController.m */,
 				CCB1342D1BFC2125000E5F9B /* ShoppingCartViewController.xib */,
+				CCB134721BFC3EA6000E5F9B /* ShoppingCartCell.xib */,
 			);
 			path = "购物车";
 			sourceTree = "<group>";
@@ -1803,6 +1841,37 @@
 				CCB134311BFC2125000E5F9B /* GameViewController.xib */,
 			);
 			path = "游戏";
+			sourceTree = "<group>";
+		};
+		CCB134741BFC453F000E5F9B /* 确认订单 */ = {
+			isa = PBXGroup;
+			children = (
+				CCB134751BFC4652000E5F9B /* OrderConfirmationViewController.h */,
+				CCB134761BFC4652000E5F9B /* OrderConfirmationViewController.m */,
+				CCB134771BFC4652000E5F9B /* OrderConfirmationViewController.xib */,
+				CCB1347A1BFC5162000E5F9B /* OrderConfirmationCell.xib */,
+			);
+			path = "确认订单";
+			sourceTree = "<group>";
+		};
+		CCDB08E51BFD6E4100357D3B /* 酒店详情 */ = {
+			isa = PBXGroup;
+			children = (
+				CCDB08E61BFD6E5700357D3B /* HotelInformationViewController.h */,
+				CCDB08E71BFD6E5700357D3B /* HotelInformationViewController.m */,
+				CCDB08E81BFD6E5700357D3B /* HotelInformationViewController.xib */,
+			);
+			path = "酒店详情";
+			sourceTree = "<group>";
+		};
+		CCDB08EB1BFD75EB00357D3B /* 酒店预定 */ = {
+			isa = PBXGroup;
+			children = (
+				CCDB08EC1BFD75FE00357D3B /* HotelOrderViewController.h */,
+				CCDB08ED1BFD75FE00357D3B /* HotelOrderViewController.m */,
+				CCDB08EE1BFD75FE00357D3B /* HotelOrderViewController.xib */,
+			);
+			path = "酒店预定";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -1900,6 +1969,7 @@
 				189B73161BFAD06E00E2A90C /* EmailVC.xib in Resources */,
 				845FE2351BF47BCB0011C247 /* 144.png in Resources */,
 				1881E6891BF7255D00389A54 /* Default-568h@2x.png in Resources */,
+				CCB134791BFC4652000E5F9B /* OrderConfirmationViewController.xib in Resources */,
 				CCB134481BFC2125000E5F9B /* MyWalletViewController.xib in Resources */,
 				845FE1DB1BF47BCB0011C247 /* 发现_22.png in Resources */,
 				CCB134321BFC2125000E5F9B /* PersonalCenterCell.xib in Resources */,
@@ -1917,6 +1987,7 @@
 				845FE21B1BF47BCB0011C247 /* 关注_12.png in Resources */,
 				CCB1346F1BFC21D7000E5F9B /* 发现_21.png in Resources */,
 				845FE1E41BF47BCB0011C247 /* 论坛_07.png in Resources */,
+				CCB1347D1BFC6347000E5F9B /* 01酒店_小猪众筹.png in Resources */,
 				CCB134601BFC2125000E5F9B /* MenuListCell.xib in Resources */,
 				845FE24F1BF47BCB0011C247 /* 三方登录_07.png in Resources */,
 				845FE1FD1BF47BCB0011C247 /* 隐私设置_06.png in Resources */,
@@ -1939,6 +2010,7 @@
 				845FE09D1BF479DE0011C247 /* ActionVC.xib in Resources */,
 				CCB134441BFC2125000E5F9B /* MyOrderTableViewCell.xib in Resources */,
 				845FE2111BF47BCB0011C247 /* 民间特产详情_02.png in Resources */,
+				CCDB08EA1BFD6E5700357D3B /* HotelInformationViewController.xib in Resources */,
 				845FE2391BF47BCB0011C247 /* 48.png in Resources */,
 				845FE22E1BF47BCB0011C247 /* 农场-租土地_26.png in Resources */,
 				845FE24D1BF47BCB0011C247 /* 三方登录_03.png in Resources */,
@@ -1959,6 +2031,7 @@
 				845FE1CB1BF47BCB0011C247 /* 个人中心_12.png in Resources */,
 				845FE1DF1BF47BCB0011C247 /* 编辑资料_03.png in Resources */,
 				845FE1C01BF47BCB0011C247 /* 提交订单_03.png in Resources */,
+				CCDB08F21BFD7B4600357D3B /* 04酒店-详情-预定_03.png in Resources */,
 				845FE1CD1BF47BCB0011C247 /* 个人中心_16.png in Resources */,
 				845FE1E51BF47BCB0011C247 /* 论坛_11.png in Resources */,
 				845FE1E81BF47BCB0011C247 /* 论坛_22.png in Resources */,
@@ -1967,14 +2040,18 @@
 				845FE2561BF47BCB0011C247 /* 草_03.png in Resources */,
 				845FE1D61BF47BCB0011C247 /* 发现_07.png in Resources */,
 				845FE25F1BF488BE0011C247 /* footer3_ed.png in Resources */,
+				CCDB08E41BFD6BBA00357D3B /* ModifyAddressCell.xib in Resources */,
 				845FE24C1BF47BCB0011C247 /* PNG背景.jpg in Resources */,
 				845FE1BF1BF47BCB0011C247 /* 平农.png in Resources */,
 				189B730E1BFAD06E00E2A90C /* HomePageVC.xib in Resources */,
 				CCB134561BFC2125000E5F9B /* PrivacySetViewController.xib in Resources */,
 				189B73101BFAD06E00E2A90C /* ForgetPassVC.xib in Resources */,
 				845FE24E1BF47BCB0011C247 /* 三方登录_05.png in Resources */,
+				CCDB08F01BFD75FE00357D3B /* HotelOrderViewController.xib in Resources */,
+				CCB1348B1BFC9036000E5F9B /* ActivityCollectionCell.xib in Resources */,
 				845FE1D41BF47BCB0011C247 /* 发现_03.png in Resources */,
 				845FE1D01BF47BCB0011C247 /* 个人中心_22.png in Resources */,
+				CCB1347B1BFC5162000E5F9B /* OrderConfirmationCell.xib in Resources */,
 				189B73241BFAD16B00E2A90C /* two3.jpg in Resources */,
 				189B73271BFAD16B00E2A90C /* xiangq2.jpg in Resources */,
 				845FE2061BF47BCB0011C247 /* 上架_07.png in Resources */,
@@ -2048,6 +2125,7 @@
 				845FE1FF1BF47BCB0011C247 /* 2商城-首页-民间特产-销量_07 (2).png in Resources */,
 				CCB1345F1BFC2125000E5F9B /* FarmViewController.xib in Resources */,
 				845FE2531BF47BCB0011C247 /* 箭头1_04.png in Resources */,
+				CCB1347F1BFC72F9000E5F9B /* HotelTableViewCell.xib in Resources */,
 				845FE2341BF47BCB0011C247 /* 120.png in Resources */,
 				845FE1EA1BF47BCB0011C247 /* 评价_05.png in Resources */,
 				845FE0BD1BF47A3E0011C247 /* IQKeyboardManager.bundle in Resources */,
@@ -2110,6 +2188,7 @@
 				845FE1FB1BF47BCB0011C247 /* 酒店_21.png in Resources */,
 				845FE24A1BF47BCB0011C247 /* app_232.png in Resources */,
 				845FE23A1BF47BCB0011C247 /* 512.png in Resources */,
+				CCB134731BFC3EA6000E5F9B /* ShoppingCartCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2139,6 +2218,7 @@
 				183AA6EE1BFB229A008E3C27 /* BackpackVC.m in Sources */,
 				845FE0E11BF47A650011C247 /* NSDate+RFC1123.m in Sources */,
 				189B730F1BFAD06E00E2A90C /* ForgetPassVC.m in Sources */,
+				CCDB08EF1BFD75FE00357D3B /* HotelOrderViewController.m in Sources */,
 				189B73051BFAD06E00E2A90C /* FolkSeedCell.m in Sources */,
 				CCB1343C1BFC2125000E5F9B /* MyAddressViewController.m in Sources */,
 				189B72FE1BFAD06E00E2A90C /* MallDetailsCell.m in Sources */,
@@ -2189,8 +2269,10 @@
 				189B72F51BFAD06E00E2A90C /* shopMallVC.m in Sources */,
 				CCB134391BFC2125000E5F9B /* IdeaAndFeedbackViewController.m in Sources */,
 				189B72FA1BFAD06E00E2A90C /* ManageCell.m in Sources */,
+				CCB134781BFC4652000E5F9B /* OrderConfirmationViewController.m in Sources */,
 				845FE0E51BF47A650011C247 /* UIImageView+MKNetworkKitAdditions.m in Sources */,
 				845FE09C1BF479DE0011C247 /* ActionVC.m in Sources */,
+				CCDB08E91BFD6E5700357D3B /* HotelInformationViewController.m in Sources */,
 				845FE0E71BF47A650011C247 /* MKNetworkOperation.m in Sources */,
 				CCB134571BFC2125000E5F9B /* ActivityViewController.m in Sources */,
 				189B72ED1BFAD06E00E2A90C /* MenuImageV.m in Sources */,
