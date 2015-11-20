@@ -39,33 +39,33 @@
     [imageV addGestureRecognizer:imageTap];
     
     nameLa = [[UILabel alloc] init];
-    nameLa.font = [UIFont systemFontOfSize:14];
+    nameLa.font = [UIFont systemFontOfSize:13];
     [self.contentView addSubview:nameLa];
     
     timeLa = [[UILabel alloc] init];
     timeLa.textColor = color(105, 105, 105, 1);
-    timeLa.font = [UIFont systemFontOfSize:12];
+    timeLa.font = [UIFont systemFontOfSize:10];
     [self.contentView addSubview:timeLa];
     
     reserveLa = [[UILabel alloc] init];
     reserveLa.textColor = color(105, 105, 105, 1);
-    reserveLa.font = [UIFont systemFontOfSize:12];
+    reserveLa.font = [UIFont systemFontOfSize:10];
     [self.contentView addSubview:reserveLa];
     
     alreadyLa = [[UILabel alloc] init];
     alreadyLa.textColor = color(105, 105, 105, 1);
-    alreadyLa.font = [UIFont systemFontOfSize:12];
+    alreadyLa.font = [UIFont systemFontOfSize:10];
     [self.contentView addSubview:alreadyLa];
     
     price = [[UILabel alloc] init];
     price.textColor = color(105, 105, 105, 1);
-    price.font = [UIFont systemFontOfSize:12];
+    price.font = [UIFont systemFontOfSize:10];
     price.text = @"出售价格：";
     [self.contentView addSubview:price];
     
     priceLa = [[UILabel alloc] init];
     priceLa.textColor = color(189, 0, 0, 1);
-    priceLa.font = [UIFont systemFontOfSize:13];
+    priceLa.font = [UIFont systemFontOfSize:11];
     [self.contentView addSubview:priceLa];
     
     lineLa = [[UILabel alloc] init];
@@ -76,7 +76,7 @@
     [buyBT setTitle:@"立即购买" forState:UIControlStateNormal];
     [buyBT setTitleColor:[UIColor whiteColor] forState:UIControlStateNormal];
     buyBT.backgroundColor = ZCnongzhuang;
-    [buyBT setFont:[UIFont systemFontOfSize:13]];
+    [buyBT setFont:[UIFont systemFontOfSize:12]];
     [buyBT addTarget:self action:@selector(buyBT) forControlEvents:UIControlEventTouchUpInside];
     [self.contentView addSubview:buyBT];
     
@@ -84,7 +84,7 @@
     [shopCarBT setTitle:@"加入购物车" forState:UIControlStateNormal];
     [shopCarBT setTitleColor:[UIColor whiteColor] forState:UIControlStateNormal];
     shopCarBT.backgroundColor = color(226, 88, 29, 1);
-    [shopCarBT setFont:[UIFont systemFontOfSize:13]];
+    [shopCarBT setFont:[UIFont systemFontOfSize:12]];
     [shopCarBT addTarget:self action:@selector(shopCarBT) forControlEvents:UIControlEventTouchUpInside];
     [self.contentView addSubview:shopCarBT];
     

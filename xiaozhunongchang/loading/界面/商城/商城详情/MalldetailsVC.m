@@ -9,6 +9,7 @@
 #import "MalldetailsVC.h"
 #import "MallDetailsCell.h"
 #import "ZZStringSize.h"
+#import "ShopCarVC.h"
 
 @interface MalldetailsVC () <UITableViewDataSource,UITableViewDelegate>
 {
@@ -88,7 +89,7 @@
     UIView *view = [[UIView alloc] initWithFrame:CGRectMake(0, ScreenHeight-104, ScreenWidth, 40)];
     view.backgroundColor = color(236, 236, 236, 0.7);
     [self.view addSubview:view];
-    
+    //加入购物车
     UIButton *shopCarBT = [[UIButton alloc] initWithFrame:CGRectMake(ScreenWidth-140, 10, 60, 20)];
     shopCarBT.backgroundColor = ZCnongzhuang;
     [shopCarBT setTitle:@"加入购物车" forState:UIControlStateNormal];
@@ -96,7 +97,7 @@
     [shopCarBT setFont:[UIFont systemFontOfSize:10]];
     [shopCarBT addTarget:self action:@selector(shopCarBT) forControlEvents:UIControlEventTouchUpInside];
     [view addSubview:shopCarBT];
-    
+    //提交订单
     UIButton *orderBT = [[UIButton alloc] initWithFrame:CGRectMake(ScreenWidth-70, 10, 60, 20)];
     orderBT.backgroundColor = ZCnongzhuang;
     [orderBT setTitle:@"提交订单" forState:UIControlStateNormal];
@@ -104,7 +105,7 @@
     [orderBT setFont:[UIFont systemFontOfSize:10]];
     [orderBT addTarget:self action:@selector(orderBT) forControlEvents:UIControlEventTouchUpInside];
     [view addSubview:orderBT];
-    
+    //购物车图片
     UIButton *shopImgBT = [[UIButton alloc] initWithFrame:CGRectMake(ScreenWidth-50, ScreenHeight-164, 40, 40)];
     shopImgBT.backgroundColor = [UIColor clearColor];
     [shopImgBT setImage:[UIImage imageNamed:@"民间特产详情_07"] forState:UIControlStateNormal];
@@ -166,25 +167,28 @@
         cell.brankLa1.text = paraArray[indexPath.row];
         cell.brankLa2.text = valueArray[indexPath.row];
     }
-    
+    cell.selectionStyle = UITableViewCellSelectionStyleNone;
     return cell;
 
 }
 
+#pragma mark --聊天按钮
 - (void)speakBT {
     
 }
-
+#pragma mark -- 加入购物车按钮
 - (void)shopCarBT {
     
 }
-
+#pragma mark -- 提交订单按钮
 - (void)orderBT {
     
 }
-
+#pragma mark -- 购物车按钮
 - (void)shopImgBT {
     
+    ShopCarVC *Svc = [[ShopCarVC alloc] initWithNibName:@"ShopCarVC" bundle:nil];
+    [self.navigationController pushViewController:Svc animated:YES];
 }
 
 - (void)didReceiveMemoryWarning {

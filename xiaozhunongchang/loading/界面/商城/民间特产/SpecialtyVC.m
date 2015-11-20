@@ -28,7 +28,7 @@
     [self userInterface];
 }
 
-//布局控件
+#pragma mark -- 布局控件和表格
 - (void)userInterface {
     
     [self setNavLeftBtnWithImg];
@@ -36,7 +36,7 @@
     menuV = [[UIView alloc] initWithFrame:CGRectMake(0, 0, ScreenWidth, 45)];
     menuV.backgroundColor = [UIColor whiteColor];
     [self.view addSubview:menuV];
-    
+    //线条
     lineLa = [[UILabel alloc] initWithFrame:CGRectMake(0, 42, ScreenWidth/4, 3)];
     lineLa.backgroundColor = ZCnongzhuang;
     [menuV addSubview:lineLa];
@@ -52,7 +52,7 @@
     
 }
 
-//设置选项标题
+#pragma mark -- 布局分类
 - (void)setMenuLabel {
     for (int i = 0; i<3; i++) {
         UIButton *menuBT = [[UIButton alloc] initWithFrame:CGRectMake(i*ScreenWidth/4, 0, ScreenWidth/4, 42)];
@@ -79,7 +79,7 @@
         [menuV addSubview:menuBT];
     }
 }
-//点击菜单按钮事件
+#pragma mark -- 分类按钮
 - (void)menuAC:(UIButton *)button {
     
     if (button.tag == 1000) {
@@ -141,10 +141,11 @@
     cell.twoImgV.imageV.image = [UIImage imageNamed:@"three1.jpg"];
     cell.twoImgV.priceLa.text = @"￥80.00";
     cell.twoImgV.salesLa.text = @"月销324";
-    
+    cell.selectionStyle = UITableViewCellSelectionStyleNone;
     return cell;
 }
 
+#pragma mark --特产详情跳转
 - (void)nextDetails {
     
     FolkDetailsVC *Fvc = [[FolkDetailsVC alloc] initWithNibName:@"FolkDetailsVC" bundle:nil];
