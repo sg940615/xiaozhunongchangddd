@@ -10,6 +10,9 @@
 
 @interface PayViewController () <UITableViewDataSource,UITableViewDelegate>
 
+@property (nonatomic, strong) UIView *backgroundView;
+
+
 @end
 
 @implementation PayViewController
@@ -26,6 +29,21 @@
     _PayTableView.tableFooterView = _footerView;
     _PayTableView.tableHeaderView = _headerView;
     _PayTableView.scrollEnabled = NO;
+    
+    _backgroundView = [[UIView alloc] initWithFrame:self.view.bounds];
+    _backgroundView.backgroundColor = color(0, 0, 0, 0.3);
+    [self.appdelegate.window addSubview:_backgroundView];
+//    _backgroundView.hidden = YES;
+    UITapGestureRecognizer *tap = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(tapClicked)];
+    [_backgroundView addGestureRecognizer:tap];
+    _payView.center = _backgroundView.center;
+    [_backgroundView addSubview:_payView];
+}
+
+- (void)tapClicked {
+    _backgroundView.hidden = YES;
+}
+- (IBAction)chooseBtn:(id)sender {
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
@@ -47,7 +65,7 @@
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
     [tableView deselectRowAtIndexPath:indexPath animated:YES];
-    
+    _backgroundView.hidden = NO;
 }
 
 #pragma mark --- 充值button点击事件

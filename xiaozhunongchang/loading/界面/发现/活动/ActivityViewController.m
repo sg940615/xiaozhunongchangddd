@@ -7,13 +7,11 @@
 //
 
 #import "ActivityViewController.h"
+#import "ActivityCollectionViewCell.h"
 
 @interface ActivityViewController () <UICollectionViewDataSource,UICollectionViewDelegateFlowLayout>
 
 @property (nonatomic, strong) UICollectionView *AllCollectionView;
-@property (nonatomic, strong) UICollectionView *NewsCollectionView;
-@property (nonatomic, strong) UICollectionView *WillEndCollectionView;
-@property (nonatomic, strong) UICollectionView *EndCollectionView;
 
 @end
 
@@ -56,8 +54,9 @@
     _AllCollectionView.delegate = self;
     _AllCollectionView.dataSource = self;
     [self.view addSubview:_AllCollectionView];
-    [_AllCollectionView registerClass:[UICollectionViewCell class] forCellWithReuseIdentifier:@"a"];
-    _AllCollectionView.backgroundColor = [UIColor whiteColor];
+    [_AllCollectionView registerClass:[ActivityCollectionViewCell class] forCellWithReuseIdentifier:@"a"];
+    _AllCollectionView.backgroundColor = [UIColor clearColor];
+    _AllCollectionView.showsVerticalScrollIndicator = NO;
 }
 
 - (NSInteger) collectionView:(UICollectionView *)collectionView numberOfItemsInSection:(NSInteger)section {
@@ -65,28 +64,23 @@
 }
 
 - (UICollectionViewCell *)collectionView:(UICollectionView *)collectionView cellForItemAtIndexPath:(NSIndexPath *)indexPath {
-    UICollectionViewCell *cell = [collectionView dequeueReusableCellWithReuseIdentifier:@"a" forIndexPath:indexPath];
-    if (!cell) {
-        cell = [[[NSBundle mainBundle]loadNibNamed:@"ActivityCollectionCell" owner:nil options:nil] lastObject];
-    }
-//    cell.backgroundColor = [UIColor redColor];
+    ActivityCollectionViewCell *cell = [collectionView dequeueReusableCellWithReuseIdentifier:@"a" forIndexPath:indexPath];
+    [self setBorder:cell size:1];
+    cell.imageView.image = [UIImage imageNamed:@"two2.jpg"];
+    cell.label.text = @"陆安小镇 六重好礼送不停";
+    cell.backgroundColor = [UIColor whiteColor];
     return cell;
 }
 
 - (CGSize)collectionView:(UICollectionView *)collectionView layout:(UICollectionViewLayout *)collectionViewLayout sizeForItemAtIndexPath:(NSIndexPath *)indexPath{
     //第一个参数是宽，第二个参数是高
-    return CGSizeMake(150, 150);
-    //横屏滑动时：（0，0）  最左边最上边  最左边最下边
-    //竖屏滑动时：（0，0）  最左边最上边  最右边最上边
-    //460 - 240 - 100
-    //460 - 160 - 160  = 140 - 100
-    //460 - 200 - 100/160 - 100/60
+    return CGSizeMake(145, 145);
 }
 
 
 - (UIEdgeInsets)collectionView:(UICollectionView *)collectionView layout:(UICollectionViewLayout *)collectionViewLayout insetForSectionAtIndex:(NSInteger)section{
     //上左下右
-    return UIEdgeInsetsMake(5, 5, 5, 5);
+    return UIEdgeInsetsMake(5, 10, 5, 10);
 }
 
 

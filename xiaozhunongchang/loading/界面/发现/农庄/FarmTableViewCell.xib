@@ -17,7 +17,7 @@
                     <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="nv4-tU-SGk">
                         <rect key="frame" x="0.0" y="13" width="320" height="151"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="7J2-Oz-xIk">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="two1.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="7J2-Oz-xIk">
                                 <rect key="frame" x="8" y="8" width="116" height="88"/>
                                 <animations/>
                             </imageView>
@@ -80,10 +80,13 @@
                     </view>
                 </subviews>
                 <animations/>
-                <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                <color key="backgroundColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="calibratedRGB"/>
             </tableViewCellContentView>
             <animations/>
             <point key="canvasLocation" x="211" y="272"/>
         </tableViewCell>
     </objects>
+    <resources>
+        <image name="two1.jpg" width="335" height="220"/>
+    </resources>
 </document>

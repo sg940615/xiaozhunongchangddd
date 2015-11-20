@@ -24,6 +24,13 @@
     _HotelTableView.tableHeaderView = _header;
     _HotelTableView.delegate = self;
     _HotelTableView.dataSource = self;
+    _HotelTableView.showsVerticalScrollIndicator = NO;
+}
+- (IBAction)singleRoom:(id)sender {
+}
+- (IBAction)standardRoom:(id)sender {
+}
+- (IBAction)suite:(id)sender {
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {

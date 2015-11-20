@@ -12,5 +12,6 @@
 @property (strong, nonatomic) IBOutlet UITableView *PayTableView;
 @property (strong, nonatomic) IBOutlet UIView *footerView;
 @property (strong, nonatomic) IBOutlet UIView *headerView;
+@property (strong, nonatomic) IBOutlet UIView *payView;
 
 @end

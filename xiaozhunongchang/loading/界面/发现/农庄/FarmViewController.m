@@ -21,12 +21,15 @@
     [self setNavLeftBtnWithImg];
     self.title = @"农庄";
     [self setNavRightBtnWithString:@"登陆"];
+    self.hidesBottomBarWhenPushed = YES;
     // Do any additional setup after loading the view from its nib.
     _menuTableView.delegate = self;
     _menuTableView.dataSource = self;
+    _menuTableView.tableHeaderView = _header;
+    _menuTableView.showsVerticalScrollIndicator = NO;
     
     UIButton *shopBtn = [UIButton buttonWithType:UIButtonTypeCustom];
-    shopBtn.frame = CGRectMake(ScreenWidth - 100, ScreenHeight - 180, 45, 45);
+    shopBtn.frame = CGRectMake(ScreenWidth - 80, ScreenHeight - 140, 45, 45);
     [shopBtn setImage:[UIImage imageNamed:@"民间特产详情_07"] forState:UIControlStateNormal];
     [shopBtn addTarget:self action:@selector(shopBtnClicked) forControlEvents:UIControlEventTouchUpInside];
     [self.view addSubview:shopBtn];
@@ -56,6 +59,7 @@
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
     MenuListViewController *menuList = [[MenuListViewController alloc] init];
     [self.navigationController pushViewController:menuList animated:YES];
+    [tableView deselectRowAtIndexPath:indexPath animated:YES];
 }
 
 

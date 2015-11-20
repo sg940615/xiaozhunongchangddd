@@ -11,5 +11,6 @@
 @interface HotelViewController : FatherVC
 @property (strong, nonatomic) IBOutlet UIView *header;
 @property (strong, nonatomic) IBOutlet UITableView *HotelTableView;
+@property (strong, nonatomic) IBOutlet UIView *areaView;
 
 @end

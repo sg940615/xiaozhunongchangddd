@@ -324,13 +324,13 @@
 		CCB1347B1BFC5162000E5F9B /* OrderConfirmationCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CCB1347A1BFC5162000E5F9B /* OrderConfirmationCell.xib */; settings = {ASSET_TAGS = (); }; };
 		CCB1347D1BFC6347000E5F9B /* 01酒店_小猪众筹.png in Resources */ = {isa = PBXBuildFile; fileRef = CCB1347C1BFC6347000E5F9B /* 01酒店_小猪众筹.png */; settings = {ASSET_TAGS = (); }; };
 		CCB1347F1BFC72F9000E5F9B /* HotelTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CCB1347E1BFC72F9000E5F9B /* HotelTableViewCell.xib */; settings = {ASSET_TAGS = (); }; };
-		CCB1348B1BFC9036000E5F9B /* ActivityCollectionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CCB1348A1BFC9036000E5F9B /* ActivityCollectionCell.xib */; settings = {ASSET_TAGS = (); }; };
 		CCDB08E41BFD6BBA00357D3B /* ModifyAddressCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CCDB08E31BFD6BBA00357D3B /* ModifyAddressCell.xib */; settings = {ASSET_TAGS = (); }; };
 		CCDB08E91BFD6E5700357D3B /* HotelInformationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CCDB08E71BFD6E5700357D3B /* HotelInformationViewController.m */; settings = {ASSET_TAGS = (); }; };
 		CCDB08EA1BFD6E5700357D3B /* HotelInformationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CCDB08E81BFD6E5700357D3B /* HotelInformationViewController.xib */; settings = {ASSET_TAGS = (); }; };
 		CCDB08EF1BFD75FE00357D3B /* HotelOrderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CCDB08ED1BFD75FE00357D3B /* HotelOrderViewController.m */; settings = {ASSET_TAGS = (); }; };
 		CCDB08F01BFD75FE00357D3B /* HotelOrderViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CCDB08EE1BFD75FE00357D3B /* HotelOrderViewController.xib */; settings = {ASSET_TAGS = (); }; };
 		CCDB08F21BFD7B4600357D3B /* 04酒店-详情-预定_03.png in Resources */ = {isa = PBXBuildFile; fileRef = CCDB08F11BFD7B4600357D3B /* 04酒店-详情-预定_03.png */; settings = {ASSET_TAGS = (); }; };
+		CCDB08F71BFDA25D00357D3B /* ActivityCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CCDB08F61BFDA25D00357D3B /* ActivityCollectionViewCell.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -755,7 +755,6 @@
 		CCB1347A1BFC5162000E5F9B /* OrderConfirmationCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = OrderConfirmationCell.xib; sourceTree = "<group>"; };
 		CCB1347C1BFC6347000E5F9B /* 01酒店_小猪众筹.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "01酒店_小猪众筹.png"; sourceTree = "<group>"; };
 		CCB1347E1BFC72F9000E5F9B /* HotelTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HotelTableViewCell.xib; sourceTree = "<group>"; };
-		CCB1348A1BFC9036000E5F9B /* ActivityCollectionCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ActivityCollectionCell.xib; sourceTree = "<group>"; };
 		CCDB08E31BFD6BBA00357D3B /* ModifyAddressCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ModifyAddressCell.xib; sourceTree = "<group>"; };
 		CCDB08E61BFD6E5700357D3B /* HotelInformationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HotelInformationViewController.h; sourceTree = "<group>"; };
 		CCDB08E71BFD6E5700357D3B /* HotelInformationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HotelInformationViewController.m; sourceTree = "<group>"; };
@@ -764,6 +763,8 @@
 		CCDB08ED1BFD75FE00357D3B /* HotelOrderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HotelOrderViewController.m; sourceTree = "<group>"; };
 		CCDB08EE1BFD75FE00357D3B /* HotelOrderViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HotelOrderViewController.xib; sourceTree = "<group>"; };
 		CCDB08F11BFD7B4600357D3B /* 04酒店-详情-预定_03.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "04酒店-详情-预定_03.png"; sourceTree = "<group>"; };
+		CCDB08F51BFDA25D00357D3B /* ActivityCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActivityCollectionViewCell.h; sourceTree = "<group>"; };
+		CCDB08F61BFDA25D00357D3B /* ActivityCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ActivityCollectionViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -1769,7 +1770,8 @@
 				CCB134151BFC2125000E5F9B /* ActivityViewController.h */,
 				CCB134161BFC2125000E5F9B /* ActivityViewController.m */,
 				CCB134171BFC2125000E5F9B /* ActivityViewController.xib */,
-				CCB1348A1BFC9036000E5F9B /* ActivityCollectionCell.xib */,
+				CCDB08F51BFDA25D00357D3B /* ActivityCollectionViewCell.h */,
+				CCDB08F61BFDA25D00357D3B /* ActivityCollectionViewCell.m */,
 			);
 			path = "活动";
 			sourceTree = "<group>";
@@ -2048,7 +2050,6 @@
 				189B73101BFAD06E00E2A90C /* ForgetPassVC.xib in Resources */,
 				845FE24E1BF47BCB0011C247 /* 三方登录_05.png in Resources */,
 				CCDB08F01BFD75FE00357D3B /* HotelOrderViewController.xib in Resources */,
-				CCB1348B1BFC9036000E5F9B /* ActivityCollectionCell.xib in Resources */,
 				845FE1D41BF47BCB0011C247 /* 发现_03.png in Resources */,
 				845FE1D01BF47BCB0011C247 /* 个人中心_22.png in Resources */,
 				CCB1347B1BFC5162000E5F9B /* OrderConfirmationCell.xib in Resources */,
@@ -2285,6 +2286,7 @@
 				845FE0C31BF47A3E0011C247 /* NSArray+Sort.m in Sources */,
 				845FE0BF1BF47A3E0011C247 /* IQSegmentedNextPrevious.m in Sources */,
 				845FE0E61BF47A650011C247 /* MKNetworkEngine.m in Sources */,
+				CCDB08F71BFDA25D00357D3B /* ActivityCollectionViewCell.m in Sources */,
 				189B73061BFAD06E00E2A90C /* BuyOrderVC.m in Sources */,
 				CCB1344F1BFC2125000E5F9B /* PlantHistoryViewController.m in Sources */,
 				845FE0C01BF47A3E0011C247 /* IQTextView.m in Sources */,

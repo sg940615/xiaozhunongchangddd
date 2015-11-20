@@ -25,7 +25,9 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
     [self createTap];
-    _scrollView.contentSize = CGSizeMake(0, 600);
+    if (IS_IPHONE_4_OR_LESS) {
+        _scrollView.contentSize = CGSizeMake(0, 500);
+    }
     _scrollView.showsVerticalScrollIndicator = NO;
 }
 
