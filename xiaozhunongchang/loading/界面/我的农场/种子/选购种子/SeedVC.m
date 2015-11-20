@@ -156,8 +156,6 @@
                 break;
         }
     }
-
-    
 }
 
 - (void)setTableView {

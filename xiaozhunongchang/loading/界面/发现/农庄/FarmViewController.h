@@ -12,7 +12,13 @@
 @property (strong, nonatomic) IBOutlet UIView *header;
 
 @property (strong, nonatomic) IBOutlet UITableView *menuTableView;
+@property (strong, nonatomic) IBOutlet UIButton *zunyiBtn;
+@property (strong, nonatomic) IBOutlet UIButton *xishuiBtn;
+@property (strong, nonatomic) IBOutlet UIButton *yibinBtn;
 
+@property (strong, nonatomic) IBOutlet UIButton *menuBtn;
 
+@property (strong, nonatomic) IBOutlet UIButton *taocanBtn;
+@property (strong, nonatomic) IBOutlet UILabel *lineLab;
 
 @end

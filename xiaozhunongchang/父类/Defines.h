@@ -49,6 +49,7 @@
 #define OrangeColor color(253, 168, 57, 1)
 #define TabberColor color(75,190,170,1)
 #define ZCnongzhuang color(29, 171, 152, 1)
+#define LightGray color(154,154,154,1)
 
 #define FooterViewControl @"viewcontrol"
 #define FooterName @"footername"

@@ -8,10 +8,17 @@
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="PayViewController">
             <connections>
                 <outlet property="PayTableView" destination="Lrz-cH-ZoG" id="Hlf-1D-uv1"/>
+                <outlet property="ershiyuanBtn" destination="qCi-dU-7xq" id="Lew-ay-wuY"/>
                 <outlet property="footerView" destination="ECF-va-qQ3" id="5KZ-oL-L57"/>
                 <outlet property="headerView" destination="zFw-1f-XsE" id="gs3-EL-0QY"/>
                 <outlet property="payView" destination="jZK-UB-P93" id="MQI-Gv-rsH"/>
+                <outlet property="sanshiyuanBtn" destination="P9b-5e-Ka1" id="Am3-ay-lyz"/>
+                <outlet property="shiyuanBtn" destination="C4R-OP-HOy" id="riM-o4-KzK"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+                <outlet property="wushiyuanBtn" destination="DBB-uL-gct" id="LDO-Tf-3Rf"/>
+                <outlet property="wuyuanBtn" destination="mpw-O6-lQ5" id="otC-Zo-4Ne"/>
+                <outlet property="yibaiyuanBtn" destination="7Zs-Xr-Xcs" id="Hpp-RS-Ksy"/>
+                <outlet property="yiyuanBtn" destination="LKv-OQ-Odk" id="nu1-cZ-eTm"/>
             </connections>
         </placeholder>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>

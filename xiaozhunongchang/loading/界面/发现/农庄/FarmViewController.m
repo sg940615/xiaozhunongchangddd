@@ -12,12 +12,15 @@
 
 @interface FarmViewController () <UITableViewDataSource,UITableViewDelegate>
 
+@property (nonatomic, strong) NSMutableArray *CityBtnArray;
+
 @end
 
 @implementation FarmViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    _CityBtnArray = [NSMutableArray array];
     [self setNavLeftBtnWithImg];
     self.title = @"农庄";
     [self setNavRightBtnWithString:@"登陆"];
@@ -33,6 +36,31 @@
     [shopBtn setImage:[UIImage imageNamed:@"民间特产详情_07"] forState:UIControlStateNormal];
     [shopBtn addTarget:self action:@selector(shopBtnClicked) forControlEvents:UIControlEventTouchUpInside];
     [self.view addSubview:shopBtn];
+    
+    [_CityBtnArray addObject:_zunyiBtn];
+    [_CityBtnArray addObject:_xishuiBtn];
+    [_CityBtnArray addObject:_yibinBtn];
+    _zunyiBtn.backgroundColor = ZCnongzhuang;
+}
+
+#pragma mark --- 菜单和套餐点击事件
+- (IBAction)ChooseBtn:(UIButton *)button {
+    NSInteger n = button.tag - 1000;
+    [UIView animateWithDuration:0.1 animations:^{
+        CGRect seed = _lineLab.frame;
+        seed.origin.x = (ScreenWidth/2) * n;
+        [_lineLab setFrame:seed];
+    }];
+}
+
+#pragma mark --- 城市点击事件
+- (IBAction)CityBtn:(UIButton *)button {
+    NSInteger n = button.tag - 100;
+    for (UIButton *normalBtn in _CityBtnArray) {
+        normalBtn.backgroundColor = LightGray;
+    }
+    UIButton *selectedBtn = _CityBtnArray[n];
+    selectedBtn.backgroundColor = ZCnongzhuang;
 }
 
 - (void)shopBtnClicked {

@@ -11,4 +11,7 @@
 @interface ShoppingCartViewController : FatherVC
 @property (strong, nonatomic) IBOutlet UITableView *shoppingcartTableView;
 
+@property (strong, nonatomic) IBOutlet UIButton *allChooseBtn;
+
+
 @end
