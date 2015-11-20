@@ -202,6 +202,7 @@
     }else {
         cell.nameLa.text = paraArray[indexPath.row];
     }
+        cell.selectionStyle = UITableViewCellSelectionStyleNone;
     return cell;
         
     }else {
@@ -227,22 +228,24 @@
             
             cell.timeLa.text = @"2015-09-23 11:35:26";
         }
+        cell.selectionStyle = UITableViewCellSelectionStyleNone;
      
         return cell;
     }
     
 }
-
+#pragma mark --加入购物车
 - (void)shopCarBT {
     
 }
 
+#pragma mark --立即购买
 - (void)buyBT {
     
     BuyOrderVC *Bvc = [[BuyOrderVC alloc] initWithNibName:@"BuyOrderVC" bundle:nil];
     [self.navigationController pushViewController:Bvc animated:YES];
 }
-
+#pragma mark --购物车图片按钮
 - (void)shopImgBT {
     
 }

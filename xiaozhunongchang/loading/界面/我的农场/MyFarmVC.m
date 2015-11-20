@@ -134,9 +134,6 @@
     
 }
 
-- (void)classBT:(UIButton *)button {
-    
-}
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
     return 4;
@@ -176,7 +173,7 @@
     
     cell.imageV.image = [UIImage imageNamed:imgArray[indexPath.row]];
     cell.name.text = nameArray[indexPath.row];
-    
+    cell.selectionStyle = UITableViewCellSelectionStyleNone;
     return cell;
 }
 
@@ -194,6 +191,7 @@
     }];
 }
 
+#pragma mark -- 中间5个按钮
 - (void)button {
 
     

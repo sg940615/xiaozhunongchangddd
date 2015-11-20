@@ -48,8 +48,16 @@
 #define GreenColor color(16, 166, 97, 1)
 #define OrangeColor color(253, 168, 57, 1)
 #define TabberColor color(75,190,170,1)
+
 #define ZCnongzhuang color(29, 171, 152, 1)
+<<<<<<< HEAD
 #define LightGray color(154,154,154,1)
+=======
+#define lineLaColor color(214, 214, 214, 1)
+#define priceLaColor color(189, 0, 0, 1)
+#define shopCarBColor color(226, 88, 29, 1)
+#define detailsColor color(105, 105, 105, 1)
+>>>>>>> origin/master
 
 #define FooterViewControl @"viewcontrol"
 #define FooterName @"footername"

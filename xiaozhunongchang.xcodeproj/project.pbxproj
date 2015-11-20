@@ -16,6 +16,29 @@
 		183AA6F91BFB291B008E3C27 /* SeedVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 183AA6F71BFB291B008E3C27 /* SeedVC.xib */; };
 		183AA6FD1BFB4EF7008E3C27 /* OwnSeedCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 183AA6FC1BFB4EF7008E3C27 /* OwnSeedCell.m */; };
 		1881E6891BF7255D00389A54 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1881E6881BF7255D00389A54 /* Default-568h@2x.png */; };
+<<<<<<< Updated upstream
+=======
+		1890E67E1BFC3A5F00153F36 /* JointFarmCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1890E67D1BFC3A5F00153F36 /* JointFarmCell.m */; };
+		1890E6801BFC449C00153F36 /* 小白菜1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1890E67F1BFC449C00153F36 /* 小白菜1.jpg */; };
+		1890E6851BFC643900153F36 /* JointDetailsVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 1890E6831BFC643900153F36 /* JointDetailsVC.m */; };
+		1890E6861BFC643900153F36 /* JointDetailsVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1890E6841BFC643900153F36 /* JointDetailsVC.xib */; };
+		1890E68A1BFC77BE00153F36 /* classVegeCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1890E6891BFC77BE00153F36 /* classVegeCell.m */; };
+		1890E68F1BFC86D000153F36 /* OwnJointVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 1890E68D1BFC86D000153F36 /* OwnJointVC.m */; };
+		1890E6901BFC86D000153F36 /* OwnJointVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1890E68E1BFC86D000153F36 /* OwnJointVC.xib */; };
+		1890E6941BFC897B00153F36 /* OwnJointCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1890E6931BFC897B00153F36 /* OwnJointCell.m */; };
+		1890E6991BFD65D400153F36 /* ReleaseJointVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 1890E6971BFD65D400153F36 /* ReleaseJointVC.m */; };
+		1890E69A1BFD65D400153F36 /* ReleaseJointVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1890E6981BFD65D400153F36 /* ReleaseJointVC.xib */; };
+		1890E69E1BFD7F4100153F36 /* ReleaseCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1890E69D1BFD7F4100153F36 /* ReleaseCell.m */; };
+		1890E6A41BFD991C00153F36 /* ShopCarVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 1890E6A21BFD991C00153F36 /* ShopCarVC.m */; };
+		1890E6A51BFD991C00153F36 /* ShopCarVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1890E6A31BFD991C00153F36 /* ShopCarVC.xib */; };
+		1890E6A81BFD9B0600153F36 /* ShopCarCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1890E6A71BFD9B0600153F36 /* ShopCarCell.m */; };
+		1890E6AD1BFDC2BF00153F36 /* ConfirmOrderTV.m in Sources */ = {isa = PBXBuildFile; fileRef = 1890E6AB1BFDC2BF00153F36 /* ConfirmOrderTV.m */; };
+		1890E6AE1BFDC2BF00153F36 /* ConfirmOrderTV.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1890E6AC1BFDC2BF00153F36 /* ConfirmOrderTV.xib */; };
+		1890E6B31BFDC54700153F36 /* QROrderCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1890E6B21BFDC54700153F36 /* QROrderCell.m */; };
+		1890E6B61BFDE73B00153F36 /* selectSeedV.m in Sources */ = {isa = PBXBuildFile; fileRef = 1890E6B51BFDE73B00153F36 /* selectSeedV.m */; };
+		189B72E91BFAD06E00E2A90C /* DiscoverVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 189B72871BFAD06D00E2A90C /* DiscoverVC.m */; };
+		189B72EA1BFAD06E00E2A90C /* DiscoverVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 189B72881BFAD06D00E2A90C /* DiscoverVC.xib */; };
+>>>>>>> Stashed changes
 		189B72EB1BFAD06E00E2A90C /* MallInfomationVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 189B728B1BFAD06D00E2A90C /* MallInfomationVC.m */; };
 		189B72EC1BFAD06E00E2A90C /* MallInfomationVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 189B728C1BFAD06D00E2A90C /* MallInfomationVC.xib */; };
 		189B72ED1BFAD06E00E2A90C /* MenuImageV.m in Sources */ = {isa = PBXBuildFile; fileRef = 189B728F1BFAD06D00E2A90C /* MenuImageV.m */; };
@@ -357,6 +380,42 @@
 		183AA6FB1BFB4EF7008E3C27 /* OwnSeedCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OwnSeedCell.h; sourceTree = "<group>"; };
 		183AA6FC1BFB4EF7008E3C27 /* OwnSeedCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OwnSeedCell.m; sourceTree = "<group>"; };
 		1881E6881BF7255D00389A54 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+<<<<<<< Updated upstream
+=======
+		1890E67C1BFC3A5F00153F36 /* JointFarmCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JointFarmCell.h; sourceTree = "<group>"; };
+		1890E67D1BFC3A5F00153F36 /* JointFarmCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JointFarmCell.m; sourceTree = "<group>"; };
+		1890E67F1BFC449C00153F36 /* 小白菜1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "小白菜1.jpg"; sourceTree = "<group>"; };
+		1890E6821BFC643900153F36 /* JointDetailsVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JointDetailsVC.h; sourceTree = "<group>"; };
+		1890E6831BFC643900153F36 /* JointDetailsVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JointDetailsVC.m; sourceTree = "<group>"; };
+		1890E6841BFC643900153F36 /* JointDetailsVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JointDetailsVC.xib; sourceTree = "<group>"; };
+		1890E6881BFC77BE00153F36 /* classVegeCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = classVegeCell.h; sourceTree = "<group>"; };
+		1890E6891BFC77BE00153F36 /* classVegeCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = classVegeCell.m; sourceTree = "<group>"; };
+		1890E68C1BFC86D000153F36 /* OwnJointVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OwnJointVC.h; sourceTree = "<group>"; };
+		1890E68D1BFC86D000153F36 /* OwnJointVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OwnJointVC.m; sourceTree = "<group>"; };
+		1890E68E1BFC86D000153F36 /* OwnJointVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = OwnJointVC.xib; sourceTree = "<group>"; };
+		1890E6921BFC897B00153F36 /* OwnJointCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OwnJointCell.h; sourceTree = "<group>"; };
+		1890E6931BFC897B00153F36 /* OwnJointCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OwnJointCell.m; sourceTree = "<group>"; };
+		1890E6961BFD65D400153F36 /* ReleaseJointVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReleaseJointVC.h; sourceTree = "<group>"; };
+		1890E6971BFD65D400153F36 /* ReleaseJointVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReleaseJointVC.m; sourceTree = "<group>"; };
+		1890E6981BFD65D400153F36 /* ReleaseJointVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ReleaseJointVC.xib; sourceTree = "<group>"; };
+		1890E69C1BFD7F4100153F36 /* ReleaseCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReleaseCell.h; sourceTree = "<group>"; };
+		1890E69D1BFD7F4100153F36 /* ReleaseCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReleaseCell.m; sourceTree = "<group>"; };
+		1890E6A11BFD991C00153F36 /* ShopCarVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShopCarVC.h; sourceTree = "<group>"; };
+		1890E6A21BFD991C00153F36 /* ShopCarVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShopCarVC.m; sourceTree = "<group>"; };
+		1890E6A31BFD991C00153F36 /* ShopCarVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ShopCarVC.xib; sourceTree = "<group>"; };
+		1890E6A61BFD9B0600153F36 /* ShopCarCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShopCarCell.h; sourceTree = "<group>"; };
+		1890E6A71BFD9B0600153F36 /* ShopCarCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShopCarCell.m; sourceTree = "<group>"; };
+		1890E6AA1BFDC2BF00153F36 /* ConfirmOrderTV.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConfirmOrderTV.h; sourceTree = "<group>"; };
+		1890E6AB1BFDC2BF00153F36 /* ConfirmOrderTV.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConfirmOrderTV.m; sourceTree = "<group>"; };
+		1890E6AC1BFDC2BF00153F36 /* ConfirmOrderTV.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ConfirmOrderTV.xib; sourceTree = "<group>"; };
+		1890E6B11BFDC54700153F36 /* QROrderCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QROrderCell.h; sourceTree = "<group>"; };
+		1890E6B21BFDC54700153F36 /* QROrderCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QROrderCell.m; sourceTree = "<group>"; };
+		1890E6B41BFDE73B00153F36 /* selectSeedV.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = selectSeedV.h; sourceTree = "<group>"; };
+		1890E6B51BFDE73B00153F36 /* selectSeedV.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = selectSeedV.m; sourceTree = "<group>"; };
+		189B72861BFAD06D00E2A90C /* DiscoverVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DiscoverVC.h; sourceTree = "<group>"; };
+		189B72871BFAD06D00E2A90C /* DiscoverVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DiscoverVC.m; sourceTree = "<group>"; };
+		189B72881BFAD06D00E2A90C /* DiscoverVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DiscoverVC.xib; sourceTree = "<group>"; };
+>>>>>>> Stashed changes
 		189B728A1BFAD06D00E2A90C /* MallInfomationVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MallInfomationVC.h; sourceTree = "<group>"; };
 		189B728B1BFAD06D00E2A90C /* MallInfomationVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MallInfomationVC.m; sourceTree = "<group>"; };
 		189B728C1BFAD06D00E2A90C /* MallInfomationVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MallInfomationVC.xib; sourceTree = "<group>"; };
@@ -807,6 +866,9 @@
 		183AA6F01BFB2775008E3C27 /* 种子 */ = {
 			isa = PBXGroup;
 			children = (
+				1890E6951BFD655A00153F36 /* 发布联合 */,
+				1890E68B1BFC867600153F36 /* 我的联合 */,
+				1890E6811BFC63DD00153F36 /* 联合详情 */,
 				183AA6F11BFB27E7008E3C27 /* 选购种子 */,
 			);
 			path = "种子";
@@ -828,8 +890,112 @@
 			children = (
 				183AA6FB1BFB4EF7008E3C27 /* OwnSeedCell.h */,
 				183AA6FC1BFB4EF7008E3C27 /* OwnSeedCell.m */,
+				1890E67C1BFC3A5F00153F36 /* JointFarmCell.h */,
+				1890E67D1BFC3A5F00153F36 /* JointFarmCell.m */,
 			);
 			path = view;
+			sourceTree = "<group>";
+		};
+		1890E6811BFC63DD00153F36 /* 联合详情 */ = {
+			isa = PBXGroup;
+			children = (
+				1890E6871BFC774D00153F36 /* view */,
+				1890E6821BFC643900153F36 /* JointDetailsVC.h */,
+				1890E6831BFC643900153F36 /* JointDetailsVC.m */,
+				1890E6841BFC643900153F36 /* JointDetailsVC.xib */,
+			);
+			path = "联合详情";
+			sourceTree = "<group>";
+		};
+		1890E6871BFC774D00153F36 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				1890E6881BFC77BE00153F36 /* classVegeCell.h */,
+				1890E6891BFC77BE00153F36 /* classVegeCell.m */,
+				1890E6B41BFDE73B00153F36 /* selectSeedV.h */,
+				1890E6B51BFDE73B00153F36 /* selectSeedV.m */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		1890E68B1BFC867600153F36 /* 我的联合 */ = {
+			isa = PBXGroup;
+			children = (
+				1890E6911BFC894400153F36 /* view */,
+				1890E68C1BFC86D000153F36 /* OwnJointVC.h */,
+				1890E68D1BFC86D000153F36 /* OwnJointVC.m */,
+				1890E68E1BFC86D000153F36 /* OwnJointVC.xib */,
+			);
+			path = "我的联合";
+			sourceTree = "<group>";
+		};
+		1890E6911BFC894400153F36 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				1890E6921BFC897B00153F36 /* OwnJointCell.h */,
+				1890E6931BFC897B00153F36 /* OwnJointCell.m */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		1890E6951BFD655A00153F36 /* 发布联合 */ = {
+			isa = PBXGroup;
+			children = (
+				1890E69B1BFD7EE400153F36 /* view */,
+				1890E6961BFD65D400153F36 /* ReleaseJointVC.h */,
+				1890E6971BFD65D400153F36 /* ReleaseJointVC.m */,
+				1890E6981BFD65D400153F36 /* ReleaseJointVC.xib */,
+			);
+			path = "发布联合";
+			sourceTree = "<group>";
+		};
+		1890E69B1BFD7EE400153F36 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				1890E69C1BFD7F4100153F36 /* ReleaseCell.h */,
+				1890E69D1BFD7F4100153F36 /* ReleaseCell.m */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		1890E69F1BFD98E800153F36 /* 购物车 */ = {
+			isa = PBXGroup;
+			children = (
+				1890E6A01BFD98E800153F36 /* view */,
+				1890E6A11BFD991C00153F36 /* ShopCarVC.h */,
+				1890E6A21BFD991C00153F36 /* ShopCarVC.m */,
+				1890E6A31BFD991C00153F36 /* ShopCarVC.xib */,
+			);
+			path = "购物车";
+			sourceTree = "<group>";
+		};
+		1890E6A01BFD98E800153F36 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				1890E6A61BFD9B0600153F36 /* ShopCarCell.h */,
+				1890E6A71BFD9B0600153F36 /* ShopCarCell.m */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		1890E6A91BFDC22600153F36 /* 确认订单 */ = {
+			isa = PBXGroup;
+			children = (
+				1890E6B01BFDC51300153F36 /*  view */,
+				1890E6AA1BFDC2BF00153F36 /* ConfirmOrderTV.h */,
+				1890E6AB1BFDC2BF00153F36 /* ConfirmOrderTV.m */,
+				1890E6AC1BFDC2BF00153F36 /* ConfirmOrderTV.xib */,
+			);
+			path = "确认订单";
+			sourceTree = "<group>";
+		};
+		1890E6B01BFDC51300153F36 /*  view */ = {
+			isa = PBXGroup;
+			children = (
+				1890E6B11BFDC54700153F36 /* QROrderCell.h */,
+				1890E6B21BFDC54700153F36 /* QROrderCell.m */,
+			);
+			path = " view";
 			sourceTree = "<group>";
 		};
 		189B72841BFAD06D00E2A90C /* 界面 */ = {
@@ -1051,6 +1217,8 @@
 		189B72CD1BFAD06E00E2A90C /* 我的农场 */ = {
 			isa = PBXGroup;
 			children = (
+				1890E69F1BFD98E800153F36 /* 购物车 */,
+				1890E6A91BFDC22600153F36 /* 确认订单 */,
 				183AA6F01BFB2775008E3C27 /* 种子 */,
 				183AA6EA1BFB2224008E3C27 /* 背包 */,
 				183AA6E41BFB11E7008E3C27 /* view */,
@@ -1138,6 +1306,7 @@
 				189B731F1BFAD16B00E2A90C /* xiangq2.jpg */,
 				189B732B1BFADCF100E2A90C /* touxiang1.jpg */,
 				183AA6E81BFB20DF008E3C27 /* 西红柿1.jpg */,
+				1890E67F1BFC449C00153F36 /* 小白菜1.jpg */,
 			);
 			path = "图片";
 			sourceTree = "<group>";
@@ -2006,13 +2175,18 @@
 				189B72F11BFAD06E00E2A90C /* MallVC.xib in Resources */,
 				845FE2031BF47BCB0011C247 /* footer4.png in Resources */,
 				845FE2151BF47BCB0011C247 /* 1 (1).png in Resources */,
+				1890E6AE1BFDC2BF00153F36 /* ConfirmOrderTV.xib in Resources */,
 				845FE2331BF47BCB0011C247 /* 108.png in Resources */,
 				845FE2381BF47BCB0011C247 /* 36.png in Resources */,
 				845FE1F41BF47BCB0011C247 /* 酒店-详情_26.png in Resources */,
 				845FE09D1BF479DE0011C247 /* ActionVC.xib in Resources */,
 				CCB134441BFC2125000E5F9B /* MyOrderTableViewCell.xib in Resources */,
 				845FE2111BF47BCB0011C247 /* 民间特产详情_02.png in Resources */,
+<<<<<<< Updated upstream
 				CCDB08EA1BFD6E5700357D3B /* HotelInformationViewController.xib in Resources */,
+=======
+				1890E6801BFC449C00153F36 /* 小白菜1.jpg in Resources */,
+>>>>>>> Stashed changes
 				845FE2391BF47BCB0011C247 /* 48.png in Resources */,
 				845FE22E1BF47BCB0011C247 /* 农场-租土地_26.png in Resources */,
 				845FE24D1BF47BCB0011C247 /* 三方登录_03.png in Resources */,
@@ -2033,7 +2207,11 @@
 				845FE1CB1BF47BCB0011C247 /* 个人中心_12.png in Resources */,
 				845FE1DF1BF47BCB0011C247 /* 编辑资料_03.png in Resources */,
 				845FE1C01BF47BCB0011C247 /* 提交订单_03.png in Resources */,
+<<<<<<< Updated upstream
 				CCDB08F21BFD7B4600357D3B /* 04酒店-详情-预定_03.png in Resources */,
+=======
+				1890E6901BFC86D000153F36 /* OwnJointVC.xib in Resources */,
+>>>>>>> Stashed changes
 				845FE1CD1BF47BCB0011C247 /* 个人中心_16.png in Resources */,
 				845FE1E51BF47BCB0011C247 /* 论坛_11.png in Resources */,
 				845FE1E81BF47BCB0011C247 /* 论坛_22.png in Resources */,
@@ -2126,7 +2304,11 @@
 				845FE1FF1BF47BCB0011C247 /* 2商城-首页-民间特产-销量_07 (2).png in Resources */,
 				CCB1345F1BFC2125000E5F9B /* FarmViewController.xib in Resources */,
 				845FE2531BF47BCB0011C247 /* 箭头1_04.png in Resources */,
+<<<<<<< Updated upstream
 				CCB1347F1BFC72F9000E5F9B /* HotelTableViewCell.xib in Resources */,
+=======
+				1890E69A1BFD65D400153F36 /* ReleaseJointVC.xib in Resources */,
+>>>>>>> Stashed changes
 				845FE2341BF47BCB0011C247 /* 120.png in Resources */,
 				845FE1EA1BF47BCB0011C247 /* 评价_05.png in Resources */,
 				845FE0BD1BF47A3E0011C247 /* IQKeyboardManager.bundle in Resources */,
@@ -2139,6 +2321,7 @@
 				845FE23B1BF47BCB0011C247 /* 58.png in Resources */,
 				845FE1CC1BF47BCB0011C247 /* 个人中心_14.png in Resources */,
 				845FE21F1BF47BCB0011C247 /* 农场(1)_10.png in Resources */,
+				1890E6A51BFD991C00153F36 /* ShopCarVC.xib in Resources */,
 				845FE1EF1BF47BCB0011C247 /* 酒店-详情_09.png in Resources */,
 				189B73251BFAD16B00E2A90C /* two4.jpg in Resources */,
 				183AA6F91BFB291B008E3C27 /* SeedVC.xib in Resources */,
@@ -2147,6 +2330,7 @@
 				845FE2021BF47BCB0011C247 /* footer3.png in Resources */,
 				189B73231BFAD16B00E2A90C /* two2.jpg in Resources */,
 				845FE1C11BF47BCB0011C247 /* 收银台_03.png in Resources */,
+				1890E6861BFC643900153F36 /* JointDetailsVC.xib in Resources */,
 				845FE1F91BF47BCB0011C247 /* 酒店_13.png in Resources */,
 				183AA6E31BFB06C4008E3C27 /* 农场(1)_03.png in Resources */,
 				845FE1D31BF47BCB0011C247 /* 农庄——套餐详情_02.png in Resources */,
@@ -2208,13 +2392,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				845FE0BE1BF47A3E0011C247 /* IQKeyboardManager.m in Sources */,
+				1890E69E1BFD7F4100153F36 /* ReleaseCell.m in Sources */,
 				845FE0E21BF47A650011C247 /* NSDictionary+RequestEncoding.m in Sources */,
+				1890E6A41BFD991C00153F36 /* ShopCarVC.m in Sources */,
 				189B73091BFAD06E00E2A90C /* MyFarmVC.m in Sources */,
 				845FE0C11BF47A3E0011C247 /* IQTitleBarButtonItem.m in Sources */,
 				183AA6E71BFB1229008E3C27 /* FarmMenuCell.m in Sources */,
 				845FE0EC1BF47B040011C247 /* ZZStringSize.m in Sources */,
 				CCB134421BFC2125000E5F9B /* MyMessageViewController.m in Sources */,
 				189B73081BFAD06E00E2A90C /* OrderCell.m in Sources */,
+				1890E6941BFC897B00153F36 /* OwnJointCell.m in Sources */,
 				845FE0951BF4787C0011C247 /* FatherVC.m in Sources */,
 				183AA6EE1BFB229A008E3C27 /* BackpackVC.m in Sources */,
 				845FE0E11BF47A650011C247 /* NSDate+RFC1123.m in Sources */,
@@ -2225,9 +2412,15 @@
 				189B72FE1BFAD06E00E2A90C /* MallDetailsCell.m in Sources */,
 				CCB134401BFC2125000E5F9B /* AddNewAddressViewController.m in Sources */,
 				189B72F01BFAD06E00E2A90C /* MallVC.m in Sources */,
+<<<<<<< Updated upstream
 				CCB1344C1BFC2125000E5F9B /* MyBillViewController.m in Sources */,
 				189B73151BFAD06E00E2A90C /* EmailVC.m in Sources */,
 				CCB134531BFC2125000E5F9B /* ChangePasswordViewController.m in Sources */,
+=======
+				1890E6851BFC643900153F36 /* JointDetailsVC.m in Sources */,
+				189B73151BFAD06E00E2A90C /* EmailVC.m in Sources */,
+				1890E68A1BFC77BE00153F36 /* classVegeCell.m in Sources */,
+>>>>>>> Stashed changes
 				189B73031BFAD06E00E2A90C /* FolkDetailsVC.m in Sources */,
 				845FE06B1BF477F30011C247 /* AppDelegate.m in Sources */,
 				189B72F81BFAD06E00E2A90C /* ManageVC.m in Sources */,
@@ -2239,13 +2432,16 @@
 				189B73011BFAD06E00E2A90C /* MainSpeCell.m in Sources */,
 				CCB134591BFC2125000E5F9B /* HotelViewController.m in Sources */,
 				845FE0C41BF47A3E0011C247 /* UIView+Hierarchy.m in Sources */,
+				1890E6A81BFD9B0600153F36 /* ShopCarCell.m in Sources */,
 				189B72EB1BFAD06E00E2A90C /* MallInfomationVC.m in Sources */,
 				845FE0BB1BF47A3E0011C247 /* ZZLoadView.m in Sources */,
+				1890E6AD1BFDC2BF00153F36 /* ConfirmOrderTV.m in Sources */,
 				189B72F31BFAD06E00E2A90C /* MallshelvesVC.m in Sources */,
 				845FE0681BF477F30011C247 /* main.m in Sources */,
 				189B72FC1BFAD06E00E2A90C /* MalldetailsVC.m in Sources */,
 				189B730B1BFAD06E00E2A90C /* MyfriendVC.m in Sources */,
 				189B73021BFAD06E00E2A90C /* MainSpeV.m in Sources */,
+				1890E6991BFD65D400153F36 /* ReleaseJointVC.m in Sources */,
 				189B72F21BFAD06E00E2A90C /* MallOneCell.m in Sources */,
 				CCB134491BFC2125000E5F9B /* PayViewController.m in Sources */,
 				845FE0C51BF47A3E0011C247 /* UIView+IQKeyboardToolbar.m in Sources */,
@@ -2253,7 +2449,11 @@
 				189B72EE1BFAD06E00E2A90C /* PromotionImageV.m in Sources */,
 				845FE0971BF4787C0011C247 /* TabBarControl.m in Sources */,
 				189B72FB1BFAD06E00E2A90C /* manageV.m in Sources */,
+<<<<<<< Updated upstream
 				CCB1343E1BFC2125000E5F9B /* ModifyAddressViewController.m in Sources */,
+=======
+				1890E68F1BFC86D000153F36 /* OwnJointVC.m in Sources */,
+>>>>>>> Stashed changes
 				189B72EF1BFAD06E00E2A90C /* SearchTF.m in Sources */,
 				CCB134551BFC2125000E5F9B /* PrivacySetViewController.m in Sources */,
 				845FE0DF1BF47A650011C247 /* NSAlert+MKNetworkKitAdditions.m in Sources */,
@@ -2268,12 +2468,21 @@
 				845FE0BC1BF47A3E0011C247 /* DoAllNull.m in Sources */,
 				183AA6F81BFB291B008E3C27 /* SeedVC.m in Sources */,
 				189B72F51BFAD06E00E2A90C /* shopMallVC.m in Sources */,
+<<<<<<< Updated upstream
 				CCB134391BFC2125000E5F9B /* IdeaAndFeedbackViewController.m in Sources */,
+=======
+				1890E67E1BFC3A5F00153F36 /* JointFarmCell.m in Sources */,
+>>>>>>> Stashed changes
 				189B72FA1BFAD06E00E2A90C /* ManageCell.m in Sources */,
 				CCB134781BFC4652000E5F9B /* OrderConfirmationViewController.m in Sources */,
 				845FE0E51BF47A650011C247 /* UIImageView+MKNetworkKitAdditions.m in Sources */,
 				845FE09C1BF479DE0011C247 /* ActionVC.m in Sources */,
+<<<<<<< Updated upstream
 				CCDB08E91BFD6E5700357D3B /* HotelInformationViewController.m in Sources */,
+=======
+				1890E6B31BFDC54700153F36 /* QROrderCell.m in Sources */,
+				189B72E91BFAD06E00E2A90C /* DiscoverVC.m in Sources */,
+>>>>>>> Stashed changes
 				845FE0E71BF47A650011C247 /* MKNetworkOperation.m in Sources */,
 				CCB134571BFC2125000E5F9B /* ActivityViewController.m in Sources */,
 				189B72ED1BFAD06E00E2A90C /* MenuImageV.m in Sources */,
@@ -2283,6 +2492,7 @@
 				845FE0C61BF47A3E0011C247 /* UIWindow+Hierarchy.m in Sources */,
 				189B73131BFAD06E00E2A90C /* SignVC.m in Sources */,
 				845FE0C21BF47A3E0011C247 /* IQToolbar.m in Sources */,
+				1890E6B61BFDE73B00153F36 /* selectSeedV.m in Sources */,
 				845FE0C31BF47A3E0011C247 /* NSArray+Sort.m in Sources */,
 				845FE0BF1BF47A3E0011C247 /* IQSegmentedNextPrevious.m in Sources */,
 				845FE0E61BF47A650011C247 /* MKNetworkEngine.m in Sources */,

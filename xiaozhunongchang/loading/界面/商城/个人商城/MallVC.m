@@ -66,10 +66,11 @@
     cell.reserveLa.text = @"可预订量：30kg";
     cell.alreadyLa.text = @"已预订：15kg";
     cell.priceLa.text = @"￥20.00/kg";
-    
+    cell.selectionStyle = UITableViewCellSelectionStyleNone;
     return cell;
 }
 
+#pragma mark -- 图片详情跳转
 - (void)nextMalldetails {
     
     MalldetailsVC *detailsVC = [[MalldetailsVC alloc] initWithNibName:@"MalldetailsVC" bundle:nil];
@@ -77,6 +78,7 @@
 
 }
 
+#pragma mark -- 导航栏管理跳转
 - (void)rightAction {
     
     ManageVC *Mvc =[[ManageVC alloc] initWithNibName:@"ManageVC" bundle:nil];

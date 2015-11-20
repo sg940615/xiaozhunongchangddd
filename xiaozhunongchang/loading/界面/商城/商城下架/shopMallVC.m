@@ -46,7 +46,7 @@
     [self.view addSubview:view];
     
     CGFloat W = view.frame.size.width;
-    
+    //取消
     UIButton *cancelBT = [[UIButton alloc] initWithFrame:CGRectMake( W/3-20, 75, 40, 25)];
     cancelBT.font = [UIFont systemFontOfSize:13];
     [cancelBT setTitleColor:[UIColor whiteColor] forState:UIControlStateNormal];
@@ -54,7 +54,7 @@
     [cancelBT addTarget:self action:@selector(cancelBT) forControlEvents:UIControlEventTouchUpInside];
     [self setBorder:cancelBT size:1 withColor:[UIColor whiteColor]];
     [view addSubview:cancelBT];
-    
+    //确定
     UIButton *deterBT = [[UIButton alloc] initWithFrame:CGRectMake( W/3*2-20, 75, 40, 25)];
     deterBT.font = [UIFont systemFontOfSize:13];
     [deterBT setTitleColor:[UIColor whiteColor] forState:UIControlStateNormal];
@@ -94,18 +94,18 @@
     cell.yieldLa.text = @"预计收获产量：100kg";
     cell.priceLa.text = @"¥20.00/kg";
     [cell.button setTitle:@"马上下架" forState:UIControlStateNormal];
-    
+    cell.selectionStyle = UITableViewCellSelectionStyleNone;
     return cell;
 }
-
+#pragma mark -- 弹框显示
 - (void)nextPopUpBox {
     view.hidden = NO;
 }
-
+#pragma mark -- 取消按钮
 - (void)cancelBT {
     view.hidden = YES;
 }
-
+#pragma mark -- 确定按钮
 - (void)deterBT {
     view.hidden = YES;
 }

@@ -27,7 +27,7 @@
     [self setRemarks];
     [self setButton];
 }
-
+#pragma mark --布局控件
 - (void)userInterface {
     
     [self setNavLeftBtnWithImg];
@@ -38,7 +38,7 @@
     mainSV.contentSize = CGSizeMake(ScreenWidth, 568);
     mainSV.showsVerticalScrollIndicator = NO;
     [self.view addSubview:mainSV];
-    
+    //根视图
     UIView *view = [[UIView alloc] initWithFrame:CGRectMake(0, 10, ScreenWidth, 100)];
     view.backgroundColor = [UIColor whiteColor];
     [mainSV addSubview:view];
@@ -46,19 +46,19 @@
     UIImageView *imageV = [[UIImageView alloc] initWithFrame:CGRectMake(10, 40, 20, 20)];
     imageV.image = [UIImage imageNamed:@"地址_03"];
     [view addSubview:imageV];
-    
+    //收货人
     UILabel *name = [[UILabel alloc] initWithFrame:CGRectMake(30, 10, 100, 20)];
     name.font = [UIFont systemFontOfSize:12];
     name.text = @"收货人：xxx";
     name.textColor = color(92, 91, 91, 1);
     [view addSubview:name];
-    
+    //电话号码
     UILabel *phone = [[UILabel alloc] initWithFrame:CGRectMake(ScreenWidth/3*2, 10, 80, 20)];
     phone.font = [UIFont systemFontOfSize:12];
     phone.text = @"1823564xxxx";
     phone.textColor = color(92, 91, 91, 1);
     [view addSubview:phone];
-    
+    //地址
     UILabel *address = [[UILabel alloc] initWithFrame:CGRectMake(30, 30, ScreenWidth/3*2, 40)];
     address.font = [UIFont systemFontOfSize:11];
     address.numberOfLines = 0;
@@ -80,32 +80,32 @@
     UIImageView *imageV = [[UIImageView alloc] initWithFrame:CGRectMake(10, 10, 80, 80)];
     imageV.image = [UIImage imageNamed:@"two4.jpg"];
     [view addSubview:imageV];
-    
+    //名字
     UILabel *label1 = [[UILabel alloc] initWithFrame:CGRectMake(100, 17, 100, 20)];
     label1.font = [UIFont systemFontOfSize:12];
     label1.text = @"纯净天然蜂蜜";
     label1.textColor = color(92, 91, 91, 1);
     [view addSubview:label1];
-    
+    //重量
     UILabel *label2 = [[UILabel alloc] initWithFrame:CGRectMake(100, 37, 100, 20)];
     label2.font = [UIFont systemFontOfSize:12];
     label2.text = @"500g";
     label2.textColor = color(92, 91, 91, 1);
     [view addSubview:label2];
-    
+    //邮费
     UILabel *label3 = [[UILabel alloc] initWithFrame:CGRectMake(100, 57, 100, 20)];
     label3.font = [UIFont systemFontOfSize:12];
     label3.text = @"邮费：15.00";
     label3.textColor = color(92, 91, 91, 1);
     [view addSubview:label3];
-    
+    //价格
     UILabel *label4 = [[UILabel alloc] initWithFrame:CGRectMake(ScreenWidth-110, 17, 100, 20)];
     label4.font = [UIFont systemFontOfSize:14];
     label4.textAlignment = NSTextAlignmentRight;
     label4.text = @"¥80.00";
     label4.textColor = color(189, 0, 0, 1);
     [view addSubview:label4];
-    
+    //数量
     UILabel *label5 = [[UILabel alloc] initWithFrame:CGRectMake(ScreenWidth-60, 37, 50, 20)];
     label5.font = [UIFont systemFontOfSize:14];
     label5.textAlignment = NSTextAlignmentRight;
@@ -113,7 +113,7 @@
     label5.textColor = color(58, 58, 58, 1);
     [view addSubview:label5];
 }
-
+#pragma mark -- 设置购买分类
 - (void)setBuyAttribute {
     
     UITableView *mainTV = [[UITableView alloc] initWithFrame:CGRectMake(0, 220, ScreenWidth, 100) style:UITableViewStylePlain   ];
@@ -124,6 +124,7 @@
     [mainSV addSubview:mainTV];
 }
 
+#pragma mark -- 设置备注
 - (void)setRemarks {
     
     UIView *view = [[UIView alloc] initWithFrame:CGRectMake(0, 330, ScreenWidth, 140)];
@@ -133,7 +134,7 @@
     UITextView *textV = [[UITextView alloc] initWithFrame:CGRectMake(20, 30, ScreenWidth-40, 100)];
     [self setBorder:textV size:1 withColor:color(196, 196, 196, 1)];
     [view addSubview:textV];
-    
+    //备注
     UILabel *label = [[UILabel alloc] initWithFrame:CGRectMake(20, 5, 43, 20)];
     label.text = @"备注：";
     label.font = [UIFont systemFontOfSize:14];
@@ -142,6 +143,7 @@
     
 }
 
+#pragma mark -- 设置提交订单
 - (void)setButton {
     
     UIView *view = [[UIView alloc] initWithFrame:CGRectMake(0, ScreenHeight-104, ScreenWidth, 40)];
@@ -182,11 +184,11 @@
     
     cell.nameLa.text = paraArray[indexPath.row];
     cell.valueLa.text = valueArray[indexPath.row];
-    
+    cell.selectionStyle = UITableViewCellSelectionStyleNone;
     return cell;
 
 }
-
+#pragma mark --提交订单按钮
 - (void)orderBT {
     
 }

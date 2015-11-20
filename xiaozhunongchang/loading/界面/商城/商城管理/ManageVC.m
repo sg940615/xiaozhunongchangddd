@@ -35,7 +35,7 @@
     mainTV.dataSource = self;
     mainTV.separatorStyle = UITableViewCellSelectionStyleNone;
     [self.view addSubview:mainTV];
-    
+    //上架
     UIButton *shelvesBT = [[UIButton alloc] initWithFrame:CGRectMake(0, ScreenHeight-104, ScreenWidth/2, 40)];
     shelvesBT.backgroundColor = color(226, 88, 29, 1);
     [shelvesBT setTitleColor:[UIColor whiteColor] forState:UIControlStateNormal];
@@ -43,7 +43,7 @@
     [shelvesBT setTitle:@"上架商品" forState:UIControlStateNormal];
     [shelvesBT addTarget:self action:@selector(shelvesBT) forControlEvents:UIControlEventTouchUpInside];
     [self.view addSubview:shelvesBT];
-    
+    //下架
     UIButton *offBT = [[UIButton alloc] initWithFrame:CGRectMake(ScreenWidth/2, ScreenHeight-104, ScreenWidth/2, 40)];
     offBT.backgroundColor = color(164, 163, 163, 1);
     [offBT setTitleColor:[UIColor whiteColor] forState:UIControlStateNormal];
@@ -79,16 +79,18 @@
     cell.alreadyLa.text = @"已预订：15kg";
     cell.unReserverLa.text = @"未预订：15kg";
     cell.priceLa.text = @"￥20.00/kg";
-    
+    cell.selectionStyle = UITableViewCellSelectionStyleNone;
     return cell;
 }
 
+#pragma mark -- 上架
 - (void)shelvesBT {
     
     MallshelvesVC *shelvesVC = [[MallshelvesVC alloc] initWithNibName:@"MallshelvesVC" bundle:nil];
     [self.navigationController pushViewController:shelvesVC animated:YES];
 }
 
+#pragma mark -- 下架
 - (void)offBT {
     
     shopMallVC *shopVC = [[shopMallVC alloc] initWithNibName:@"shopMallVC" bundle:nil];
